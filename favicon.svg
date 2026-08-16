@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond blanc -->
+  <rect width="32" height="32" rx="6" fill="#ffffff"/>
+  
+  <!-- H stylisé géométrique en violet Stripe -->
+  <rect x="9" y="8" width="4" height="16" rx="1" fill="#533afd"/>
+  <rect x="19" y="8" width="4" height="16" rx="1" fill="#533afd"/>
+  <rect x="13" y="14" width="6" height="4" rx="1" fill="#533afd"/>
+</svg>

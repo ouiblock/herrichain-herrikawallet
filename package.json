@@ -1,0 +1,33 @@
+{
+  "name": "herrika-landing",
+  "version": "1.0.0",
+  "description": "Landing page moderne pour Herrika - Portefeuille numérique souverain basque",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve . -p 8000",
+    "dev": "./start-server.sh",
+    "build": "echo 'Site statique - pas de build nécessaire'",
+    "deploy": "echo 'Voir deploy-guide.md pour les instructions'"
+  },
+  "keywords": [
+    "herrika",
+    "portefeuille-numerique",
+    "blockchain",
+    "basque",
+    "web3",
+    "crypto",
+    "landing-page",
+    "multilingual"
+  ],
+  "author": "Herrika Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herrika/landing-page"
+  },
+  "homepage": "https://herrika.com",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

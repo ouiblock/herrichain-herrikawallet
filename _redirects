@@ -1,0 +1,18 @@
+# Redirections Netlify vers le domaine principal www.herrika.org
+
+# Redirection du domaine Netlify vers le domaine personnalisé
+https://herrika.netlify.app/*  https://www.herrika.org/:splat  301!
+http://herrika.netlify.app/*   https://www.herrika.org/:splat  301!
+
+# Redirection de herrika.org vers www.herrika.org (avec www)
+https://herrika.org/*  https://www.herrika.org/:splat  301!
+http://herrika.org/*   https://www.herrika.org/:splat  301!
+
+# Force HTTPS
+http://www.herrika.org/*  https://www.herrika.org/:splat  301!
+
+# Gestion des anciennes URLs (si besoin)
+# /old-page  /new-page  301
+
+# SPA fallback (pour les routes client-side)
+/*  /index.html  200

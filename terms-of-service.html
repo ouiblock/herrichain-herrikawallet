@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Terms of Service - Herrika</title>
+    <meta name="title" content="Terms of Service - Herrika">
+    <meta name="description" content="Terms of service for Herrika website, sovereign digital wallet powered by Herrichain association.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.herrika.org/terms-of-service">
+    <link rel="alternate" hreflang="fr" href="https://www.herrika.org/conditions-generales.html">
+    <link rel="alternate" hreflang="en" href="https://www.herrika.org/terms-of-service.html">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-stripe.css">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            background: var(--primary-black);
+            color: var(--text-primary);
+            padding-top: 100px;
+        }
+
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 32px 120px;
+        }
+
+        .legal-header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .legal-header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--basque-green), var(--basque-red));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .legal-header .last-update {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .legal-header .lang-switcher {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 24px;
+        }
+
+        .legal-header .lang-switcher a {
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .legal-header .lang-switcher a:hover {
+            background: rgba(0,160,133,0.2);
+            color: var(--basque-green);
+        }
+
+        .legal-header .lang-switcher a.active {
+            background: var(--basque-green);
+            color: white;
+        }
+
+        .legal-content {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 48px;
+            backdrop-filter: blur(10px);
+        }
+
+        .legal-content h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 24px;
+            color: var(--basque-green);
+        }
+
+        .legal-content h2:first-child {
+            margin-top: 0;
+        }
+
+        .legal-content h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .legal-content p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .legal-content ul, .legal-content ol {
+            margin: 16px 0 24px 24px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .legal-content li {
+            margin-bottom: 12px;
+        }
+
+        .legal-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .legal-content a {
+            color: var(--basque-green);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .legal-content a:hover {
+            border-bottom-color: var(--basque-green);
+        }
+
+        .highlight-box {
+            background: rgba(0, 160, 133, 0.1);
+            border-left: 4px solid var(--basque-green);
+            padding: 24px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--basque-green);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+            transition: gap 0.3s ease;
+        }
+
+        .back-home:hover {
+            gap: 12px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(0, 160, 133, 0.1), rgba(214, 48, 49, 0.1));
+            border: 1px solid rgba(0, 160, 133, 0.3);
+            border-radius: 12px;
+            padding: 32px;
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            margin-top: 0;
+            color: var(--basque-green);
+        }
+
+        @media (max-width: 768px) {
+            .legal-page {
+                padding-top: 80px;
+            }
+
+            .legal-container {
+                padding: 40px 24px 80px;
+            }
+
+            .legal-header h1 {
+                font-size: 2rem;
+            }
+
+            .legal-content {
+                padding: 32px 24px;
+            }
+
+            .legal-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .legal-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.svg" alt="Herrika" class="logo">
+                    <span class="logo-text">Herrika</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#fonctionnalites" class="nav-link">Features</a>
+                <a href="index.html#faq" class="nav-link">FAQ</a>
+                <a href="index.html#apropos" class="nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <div class="legal-page">
+        <div class="legal-container">
+            <a href="index.html" class="back-home">
+                ← Back to Home
+            </a>
+
+            <div class="legal-header">
+                <h1>Terms of Service</h1>
+                <p class="last-update">Last updated: December 4, 2024</p>
+                <div class="lang-switcher">
+                    <a href="conditions-generales.html">FR</a>
+                    <a href="terms-of-service.html" class="active">EN</a>
+                </div>
+            </div>
+
+            <div class="legal-content">
+                <div class="highlight-box">
+                    <p><strong>Important:</strong> By using Herrika, you accept these Terms of Service. Please read them carefully before using our services.</p>
+                </div>
+
+                <h2>1. Service Presentation</h2>
+                
+                <h3>1.1 Publisher</h3>
+                <p>The Herrika service is published and operated by:</p>
+                <ul>
+                    <li><strong>Name:</strong> Herrichain Association</li>
+                    <li><strong>Association website:</strong> <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a></li>
+                    <li><strong>Legal form:</strong> Non-profit association (French law 1901)</li>
+                    <li><strong>RNA:</strong> W641015204 (National Register of Associations)</li>
+                    <li><strong>Registered office:</strong> 257 avenue d'Atherbea, 64210 Bidart, France</li>
+                    <li><strong>Email:</strong> <a href="mailto:contact@herrika.org">contact@herrika.org</a></li>
+                </ul>
+
+                <h3>1.2 Service Description</h3>
+                <p>Herrika is a non-custodial (self-custody) digital wallet allowing users to:</p>
+                <ul>
+                    <li>Manage their digital assets with full sovereignty</li>
+                    <li>Obtain a European IBAN on blockchain via our partner Monerium</li>
+                    <li>Perform instant transfers and payments 24/7</li>
+                    <li>Use regulated euro stablecoins (EURe)</li>
+                    <li>Interact with the Gnosis Chain blockchain</li>
+                </ul>
+
+                <h3>1.3 Technology</h3>
+                <p>Herrika uses technology provided by <strong>Ibex Wallet</strong> and relies on:</p>
+                <ul>
+                    <li><strong>Blockchain:</strong> Gnosis Chain</li>
+                    <li><strong>IBAN & Stablecoins:</strong> Monerium (MiCA regulated)</li>
+                    <li><strong>Principle:</strong> Self-custody (you alone control your private keys)</li>
+                </ul>
+
+                <h2>2. Acceptance of Terms</h2>
+                
+                <p>Use of the Herrika service implies full acceptance of these Terms of Service (ToS).</p>
+                
+                <p>If you do not accept these terms, you must not use the service.</p>
+
+                <h2>3. Registration and User Account</h2>
+
+                <h3>3.1 Registration Conditions</h3>
+                <p>To use Herrika, you must:</p>
+                <ul>
+                    <li>Be at least 18 years old</li>
+                    <li>Have legal capacity to contract</li>
+                    <li>Provide accurate and up-to-date information</li>
+                    <li>Comply with laws and regulations in force in your country of residence</li>
+                </ul>
+
+                <h3>3.2 Account Creation</h3>
+                <p>When creating your account, you must:</p>
+                <ul>
+                    <li>Generate and save your recovery phrase (seed phrase)</li>
+                    <li>Keep your private keys in a safe place</li>
+                    <li>Never share your access information with third parties</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>⚠️ Warning:</strong> As Herrika is a non-custodial service, we do not store your private keys. If you lose your recovery phrase, we cannot recover your account or your funds.</p>
+                </div>
+
+                <h3>3.3 Account Security</h3>
+                <p>You are solely responsible for:</p>
+                <ul>
+                    <li>The confidentiality of your private keys and recovery phrase</li>
+                    <li>All activities performed from your account</li>
+                    <li>Securing your access devices</li>
+                </ul>
+
+                <h2>4. Use of Service</h2>
+
+                <h3>4.1 Authorized Uses</h3>
+                <p>You may use Herrika to:</p>
+                <ul>
+                    <li>Store and manage your digital assets</li>
+                    <li>Perform legal transactions</li>
+                    <li>Interact with decentralized applications (dApps)</li>
+                    <li>Use Monerium's IBAN and stablecoin services</li>
+                </ul>
+
+                <h3>4.2 Prohibited Uses</h3>
+                <p>It is strictly prohibited to use Herrika for:</p>
+                <ul>
+                    <li>Any illegal or fraudulent activity</li>
+                    <li>Money laundering or terrorism financing</li>
+                    <li>Violation of intellectual property rights</li>
+                    <li>Identity theft</li>
+                    <li>Distribution of viruses or malware</li>
+                    <li>Any activity infringing on the rights of third parties</li>
+                </ul>
+
+                <h3>4.3 Regulatory Compliance</h3>
+                <p>You agree to:</p>
+                <ul>
+                    <li>Comply with applicable laws and regulations in your jurisdiction</li>
+                    <li>Declare your digital assets in accordance with tax obligations</li>
+                    <li>Cooperate in case of legitimate requests from authorities</li>
+                </ul>
+
+                <h2>5. Responsibilities</h2>
+
+                <h3>5.1 User Responsibility</h3>
+                <p>You acknowledge and accept that:</p>
+                <ul>
+                    <li>You are solely responsible for managing your private keys</li>
+                    <li>Blockchain transactions are irreversible</li>
+                    <li>You must carefully verify destination addresses</li>
+                    <li>Digital assets carry volatility risks</li>
+                    <li>You use the service at your own risk</li>
+                </ul>
+
+                <h3>5.2 Herrichain's Responsibility</h3>
+                <p>Herrichain association commits to:</p>
+                <ul>
+                    <li>Provide quality service to the extent possible</li>
+                    <li>Ensure technical infrastructure security</li>
+                    <li>Inform users of service developments</li>
+                </ul>
+
+                <p>However, Herrichain cannot be held responsible for:</p>
+                <ul>
+                    <li>Loss of your private keys or recovery phrase</li>
+                    <li>Transactions made in error</li>
+                    <li>Gnosis Chain blockchain failures</li>
+                    <li>Service interruptions beyond our control</li>
+                    <li>Losses related to digital asset volatility</li>
+                    <li>Acts of third parties (hacking, phishing, etc.)</li>
+                </ul>
+
+                <h3>5.3 Limitation of Liability</h3>
+                <div class="highlight-box">
+                    <p><strong>The Herrika service is provided "as is".</strong> Herrichain association does not guarantee that the service will be error-free, uninterrupted, or completely secure.</p>
+                </div>
+
+                <h2>6. Third-Party Services</h2>
+
+                <h3>6.1 Partners</h3>
+                <p>Herrika relies on third-party partners:</p>
+                <ul>
+                    <li><strong>Ibex Wallet:</strong> Wallet technology</li>
+                    <li><strong>Monerium:</strong> IBAN and EURe stablecoin services (MiCA regulated)</li>
+                    <li><strong>Gnosis Chain:</strong> Blockchain infrastructure</li>
+                </ul>
+
+                <h3>6.2 Partner Terms</h3>
+                <p>Use of our partners' services is subject to their own terms of service. We encourage you to consult them:</p>
+                <ul>
+                    <li><a href="https://monerium.com/terms" target="_blank" rel="noopener noreferrer">Monerium Terms</a></li>
+                    <li><a href="https://www.gnosis.io/terms" target="_blank" rel="noopener noreferrer">Gnosis Chain Terms</a></li>
+                </ul>
+
+                <h2>7. Intellectual Property</h2>
+
+                <p>All elements of the Herrika service (design, logo, code, content) are protected by intellectual property rights.</p>
+
+                <p>The lauburu logo and Herrika's visual identity are the property of Herrichain association.</p>
+
+                <p>Any reproduction, representation, or use without prior authorization is prohibited.</p>
+
+                <h2>8. Personal Data</h2>
+
+                <h3>8.1 Data Collection</h3>
+                <p>Herrika collects minimal personal data:</p>
+                <ul>
+                    <li>Email address (optional)</li>
+                    <li>Connection data (IP address, timestamp)</li>
+                    <li>KYC data for Monerium services (if applicable)</li>
+                </ul>
+
+                <h3>8.2 Data Use</h3>
+                <p>Your data is used only for:</p>
+                <ul>
+                    <li>Service operation</li>
+                    <li>Regulatory compliance</li>
+                    <li>User experience improvement</li>
+                </ul>
+
+                <h3>8.3 Data Protection</h3>
+                <p>In accordance with GDPR, you have the right to access, rectify, delete, and port your data.</p>
+
+                <p>To exercise your rights: <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+
+                <h2>9. Fees and Pricing</h2>
+
+                <h3>9.1 Free Service</h3>
+                <p>The Herrika service is currently free. No fees are charged by Herrichain association.</p>
+
+                <h3>9.2 Blockchain Fees</h3>
+                <p>However, you must pay:</p>
+                <ul>
+                    <li><strong>Gas fees:</strong> Transaction fees on Gnosis Chain (paid in xDAI)</li>
+                    <li><strong>Monerium fees:</strong> Possible fees for IBAN services (according to Monerium terms)</li>
+                </ul>
+
+                <h3>9.3 Pricing Evolution</h3>
+                <p>Herrichain association reserves the right to introduce fees in the future, with a minimum 30-day notice.</p>
+
+                <h2>10. Service Modification</h2>
+
+                <p>Herrichain association reserves the right to:</p>
+                <ul>
+                    <li>Modify, suspend, or discontinue all or part of the service</li>
+                    <li>Add or remove features</li>
+                    <li>Modify these ToS</li>
+                </ul>
+
+                <p>Users will be informed of significant changes by email or in-app notification.</p>
+
+                <h2>11. Termination</h2>
+
+                <h3>11.1 Termination by User</h3>
+                <p>You may stop using Herrika at any time. Simply:</p>
+                <ul>
+                    <li>Transfer your assets to another wallet</li>
+                    <li>Uninstall the application</li>
+                    <li>Request deletion of your data (if applicable)</li>
+                </ul>
+
+                <h3>11.2 Termination by Herrichain</h3>
+                <p>Herrichain association may suspend or terminate your access in case of:</p>
+                <ul>
+                    <li>Violation of these ToS</li>
+                    <li>Suspicious or fraudulent activity</li>
+                    <li>Request from competent authorities</li>
+                    <li>Non-compliance with legal obligations</li>
+                </ul>
+
+                <h2>12. Applicable Law and Jurisdiction</h2>
+
+                <p>These ToS are governed by French law.</p>
+
+                <p>In case of dispute, the parties will endeavor to find an amicable solution.</p>
+
+                <p>Failing that, French courts shall have sole jurisdiction.</p>
+
+                <h2>13. Miscellaneous Provisions</h2>
+
+                <h3>13.1 Entire Agreement</h3>
+                <p>These ToS constitute the entire agreement between you and Herrichain association.</p>
+
+                <h3>13.2 Partial Invalidity</h3>
+                <p>If a clause of the ToS is declared null or unenforceable, the other clauses remain in force.</p>
+
+                <h3>13.3 Waiver</h3>
+                <p>Failure to exercise a right does not constitute a waiver of that right.</p>
+
+                <h3>13.4 Assignment</h3>
+                <p>You may not assign your rights or obligations without our prior consent.</p>
+
+                <h2>14. Contact</h2>
+
+                <div class="contact-box">
+                    <h3>Questions about our ToS?</h3>
+                    <p>For any questions regarding these Terms of Service, you can contact us:</p>
+                    <p>
+                        <strong>Herrichain Association</strong><br>
+                        RNA: W641015204<br>
+                        257 avenue d'Atherbea<br>
+                        64210 Bidart, France
+                    </p>
+                    <p>
+                        Email: <a href="mailto:contact@herrika.org">contact@herrika.org</a><br>
+                        Website: <a href="https://www.herrika.org">www.herrika.org</a><br>
+                        Association Website: <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a>
+                    </p>
+                </div>
+
+                <p style="margin-top: 48px; text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
+                    <em>Last updated: December 4, 2024</em>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

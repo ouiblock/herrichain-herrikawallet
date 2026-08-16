@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Mentions Légales - Herrika</title>
+    <meta name="title" content="Mentions Légales - Herrika">
+    <meta name="description" content="Mentions légales du site Herrika et informations sur l'association Herrichain.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.herrika.org/mentions-legales">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-stripe.css">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            background: var(--primary-black);
+            color: var(--text-primary);
+            padding-top: 100px;
+        }
+
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 32px 120px;
+        }
+
+        .legal-header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .legal-header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--basque-green), var(--basque-red));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .legal-header .last-update {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .legal-content {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 48px;
+            backdrop-filter: blur(10px);
+        }
+
+        .legal-content h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 24px;
+            color: var(--basque-green);
+        }
+
+        .legal-content h2:first-child {
+            margin-top: 0;
+        }
+
+        .legal-content h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .legal-content p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .legal-content ul {
+            margin: 16px 0 24px 24px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .legal-content li {
+            margin-bottom: 12px;
+        }
+
+        .legal-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .legal-content a {
+            color: var(--basque-green);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .legal-content a:hover {
+            border-bottom-color: var(--basque-green);
+        }
+
+        .info-box {
+            background: rgba(0, 160, 133, 0.1);
+            border-left: 4px solid var(--basque-green);
+            padding: 24px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .info-box p {
+            margin-bottom: 8px;
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--basque-green);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+            transition: gap 0.3s ease;
+        }
+
+        .back-home:hover {
+            gap: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .legal-page {
+                padding-top: 80px;
+            }
+
+            .legal-container {
+                padding: 40px 24px 80px;
+            }
+
+            .legal-header h1 {
+                font-size: 2rem;
+            }
+
+            .legal-content {
+                padding: 32px 24px;
+            }
+
+            .legal-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .legal-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.svg" alt="Herrika" class="logo">
+                    <span class="logo-text">Herrika</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="index.html#fonctionnalites" class="nav-link">Fonctionnalités</a>
+                <a href="index.html#faq" class="nav-link">FAQ</a>
+                <a href="index.html#apropos" class="nav-link">À propos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <div class="legal-page">
+        <div class="legal-container">
+            <a href="index.html" class="back-home">
+                ← Retour à l'accueil
+            </a>
+
+            <div class="legal-header">
+                <h1>Mentions Légales</h1>
+                <p class="last-update">Dernière mise à jour : 4 décembre 2024</p>
+            </div>
+
+            <div class="legal-content">
+                <h2>1. Éditeur du Site</h2>
+                
+                <div class="info-box">
+                    <p><strong>Nom :</strong> Association Herrichain</p>
+                    <p><strong>Forme juridique :</strong> Association loi 1901 à but non lucratif</p>
+                    <p><strong>RNA :</strong> W641015204 (Répertoire National des Associations)</p>
+                    <p><strong>Publication au Journal Officiel :</strong> <a href="https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:202500441587" target="_blank" rel="noopener">Annonce n°202500441587</a></p>
+                    <p><strong>Siège social :</strong> 257 avenue d'Atherbea, 64210 Bidart, France</p>
+                    <p><strong>Email :</strong> <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+                    <p><strong>Site web :</strong> <a href="https://www.herrika.org">www.herrika.org</a></p>
+                    <p><strong>Site web de l'association :</strong> <a href="https://herrichain.org" target="_blank" rel="noopener">herrichain.org</a></p>
+                </div>
+
+                <h3>Directeur de la publication</h3>
+                <p>Le directeur de la publication est le président de l'association Herrichain.</p>
+
+                <h2>2. Hébergement</h2>
+                
+                <p>Le site www.herrika.org est hébergé par :</p>
+                
+                <div class="info-box">
+                    <p><strong>Hébergeur :</strong> Netlify, Inc.</p>
+                    <p><strong>Adresse :</strong> 44 Montgomery Street, Suite 300, San Francisco, CA 94104, USA</p>
+                    <p><strong>Site web :</strong> <a href="https://www.netlify.com" target="_blank" rel="noopener">www.netlify.com</a></p>
+                    <p><strong>Contact :</strong> <a href="https://www.netlify.com/support/" target="_blank" rel="noopener">Support Netlify</a></p>
+                </div>
+
+                <h2>3. Objet de l'Association</h2>
+                
+                <p>L'association Herrichain a pour objet :</p>
+                <ul>
+                    <li>La démocratisation de la finance décentralisée (DeFi) en Europe</li>
+                    <li>L'éducation du public aux technologies blockchain</li>
+                    <li>Le développement d'outils open-source pour la souveraineté financière</li>
+                    <li>L'accompagnement vers l'autonomie financière numérique</li>
+                    <li>La promotion de solutions de paiement décentralisées et souveraines</li>
+                </ul>
+
+                <h2>4. Propriété Intellectuelle</h2>
+                
+                <h3>4.1 Droits d'auteur</h3>
+                <p>L'ensemble du contenu de ce site (textes, images, logos, design, code source) est la propriété exclusive de l'association Herrichain, sauf mention contraire.</p>
+                
+                <p>Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sans l'autorisation écrite préalable de l'association Herrichain.</p>
+
+                <h3>4.2 Marques</h3>
+                <p>Les marques, logos et signes distinctifs reproduits sur le site sont la propriété de l'association Herrichain ou de ses partenaires.</p>
+                
+                <p>Le logo lauburu utilisé dans l'identité visuelle de Herrika est un symbole traditionnel basque adapté pour le projet.</p>
+
+                <h3>4.3 Licences</h3>
+                <p>Certains éléments du projet Herrika peuvent être distribués sous licence open-source. Les conditions de licence spécifiques sont indiquées dans les dépôts de code concernés.</p>
+
+                <h2>5. Données Personnelles</h2>
+                
+                <h3>5.1 Responsable du traitement</h3>
+                <p>Le responsable du traitement des données personnelles est l'association Herrichain.</p>
+                
+                <p>Pour toute question relative à vos données personnelles : <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+
+                <h3>5.2 Données collectées</h3>
+                <p>Le site www.herrika.org collecte un minimum de données personnelles :</p>
+                <ul>
+                    <li>Données de navigation (adresse IP, type de navigateur, pages visitées)</li>
+                    <li>Cookies techniques nécessaires au fonctionnement du site</li>
+                    <li>Données de contact si vous nous contactez (email, message)</li>
+                </ul>
+
+                <h3>5.3 Vos droits</h3>
+                <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+                <ul>
+                    <li><strong>Droit d'accès :</strong> obtenir la confirmation que des données vous concernant sont traitées</li>
+                    <li><strong>Droit de rectification :</strong> corriger vos données inexactes ou incomplètes</li>
+                    <li><strong>Droit à l'effacement :</strong> demander la suppression de vos données</li>
+                    <li><strong>Droit à la limitation :</strong> limiter le traitement de vos données</li>
+                    <li><strong>Droit à la portabilité :</strong> recevoir vos données dans un format structuré</li>
+                    <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données</li>
+                </ul>
+
+                <p>Pour exercer vos droits, contactez-nous à : <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+
+                <h3>5.4 Délégué à la Protection des Données</h3>
+                <p>Pour toute question relative à la protection de vos données personnelles, vous pouvez nous contacter à : <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+
+                <h2 id="cookies">6. Cookies</h2>
+                
+                <h3>6.1 Cookies techniques uniquement</h3>
+                <p>Le site www.herrika.org utilise <strong>uniquement des cookies techniques</strong> strictement nécessaires au bon fonctionnement du site :</p>
+                <ul>
+                    <li><strong>Préférence de langue :</strong> Sauvegarde de votre choix de langue (FR/EN/EU/ES)</li>
+                    <li><strong>Thème visuel :</strong> Sauvegarde de votre préférence de thème (clair/sombre)</li>
+                    <li><strong>Consentement cookies :</strong> Mémorisation de votre acceptation du banner de cookies</li>
+                </ul>
+
+                <h3>6.2 Aucune collecte de données</h3>
+                <div class="info-box">
+                    <p><strong>🔒 Engagement de confidentialité :</strong></p>
+                    <p>Nous ne collectons, n'analysons et ne revendons <strong>AUCUNE donnée personnelle</strong>.</p>
+                    <p>Aucun cookie de tracking, analytics, publicité ou profilage n'est utilisé sur ce site.</p>
+                    <p>Vos données restent sur votre appareil et ne sont jamais transmises à des tiers.</p>
+                </div>
+
+                <h3>6.3 Durée de conservation</h3>
+                <p>Les cookies techniques sont conservés localement dans votre navigateur pour une durée maximale de :</p>
+                <ul>
+                    <li><strong>Langue et thème :</strong> Jusqu'à ce que vous les changiez ou supprimiez vos données de navigation</li>
+                    <li><strong>Consentement cookies :</strong> 365 jours (1 an)</li>
+                </ul>
+
+                <h3>6.4 Gestion des cookies</h3>
+                <p>Vous pouvez à tout moment :</p>
+                <ul>
+                    <li>Supprimer les cookies via les paramètres de votre navigateur</li>
+                    <li>Désactiver les cookies (le site fonctionnera toujours, mais vos préférences ne seront pas sauvegardées)</li>
+                    <li>Utiliser le mode navigation privée de votre navigateur</li>
+                </ul>
+
+                <h3>6.5 Pas de consentement requis</h3>
+                <p>Conformément au RGPD et à la directive ePrivacy, ces cookies techniques ne nécessitent pas de consentement préalable car ils sont <strong>strictement indispensables</strong> au fonctionnement du site.</p>
+                
+                <p>Le banner de cookies affiché est uniquement <strong>informatif</strong> pour vous garantir une transparence totale sur notre utilisation des cookies.</p>
+
+                <h2>7. Partenaires Technologiques</h2>
+                
+                <p>Le service Herrika s'appuie sur les technologies et services de partenaires tiers :</p>
+
+                <h3>7.1 Ibex Wallet</h3>
+                <p>Technologie de portefeuille non-custodial utilisée par Herrika.</p>
+                <ul>
+                    <li><strong>Site web :</strong> <a href="https://ibex.tech" target="_blank" rel="noopener">ibex.tech</a></li>
+                </ul>
+
+                <h3>7.2 Monerium</h3>
+                <p>Fournisseur de services IBAN et stablecoins EURe, régulé MiCA.</p>
+                <ul>
+                    <li><strong>Site web :</strong> <a href="https://monerium.com" target="_blank" rel="noopener">monerium.com</a></li>
+                    <li><strong>Régulation :</strong> Régulé en Islande, conforme MiCA</li>
+                </ul>
+
+                <h3>7.3 Gnosis Chain</h3>
+                <p>Infrastructure blockchain utilisée pour les transactions.</p>
+                <ul>
+                    <li><strong>Site web :</strong> <a href="https://www.gnosis.io" target="_blank" rel="noopener">gnosis.io</a></li>
+                    <li><strong>Type :</strong> Blockchain publique décentralisée</li>
+                </ul>
+
+                <h2>8. Limitation de Responsabilité</h2>
+                
+                <h3>8.1 Contenu du site</h3>
+                <p>L'association Herrichain s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site.</p>
+                
+                <p>Toutefois, l'association Herrichain ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur ce site.</p>
+
+                <h3>8.2 Liens externes</h3>
+                <p>Le site peut contenir des liens vers des sites externes. L'association Herrichain n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu.</p>
+
+                <h3>8.3 Disponibilité du site</h3>
+                <p>L'association Herrichain s'efforce de maintenir le site accessible 24h/24 et 7j/7, mais ne peut garantir une disponibilité ininterrompue.</p>
+                
+                <p>Le site peut être temporairement indisponible en raison de maintenance, de mises à jour ou de circonstances indépendantes de notre volonté.</p>
+
+                <h2>9. Droit Applicable</h2>
+                
+                <p>Les présentes mentions légales sont régies par le droit français.</p>
+                
+                <p>Tout litige relatif à l'utilisation du site www.herrika.org est soumis au droit français et relève de la compétence exclusive des tribunaux français.</p>
+
+                <h2>10. Contact</h2>
+                
+                <p>Pour toute question concernant ces mentions légales ou le site www.herrika.org :</p>
+                
+                <div class="info-box">
+                    <p><strong>Association Herrichain</strong></p>
+                    <p>257 avenue d'Atherbea</p>
+                    <p>64210 Bidart, France</p>
+                    <p>Email : <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+                    <p>Site web : <a href="https://www.herrika.org">www.herrika.org</a></p>
+                    <p>Site de l'association : <a href="https://herrichain.org" target="_blank" rel="noopener">herrichain.org</a></p>
+                </div>
+
+                <h2>11. Modifications</h2>
+                
+                <p>L'association Herrichain se réserve le droit de modifier les présentes mentions légales à tout moment.</p>
+                
+                <p>Les modifications entrent en vigueur dès leur publication sur le site.</p>
+                
+                <p>Nous vous invitons à consulter régulièrement cette page pour prendre connaissance des éventuelles modifications.</p>
+
+                <p style="margin-top: 48px; text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
+                    <em>Dernière mise à jour : 4 décembre 2024</em>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

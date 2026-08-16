@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Conditions Générales d'Utilisation - Herrika</title>
+    <meta name="title" content="Conditions Générales d'Utilisation - Herrika">
+    <meta name="description" content="Conditions générales d'utilisation du service Herrika, portefeuille numérique souverain porté par l'association Herrichain.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.herrika.org/conditions-generales">
+    <link rel="alternate" hreflang="fr" href="https://www.herrika.org/conditions-generales.html">
+    <link rel="alternate" hreflang="en" href="https://www.herrika.org/terms-of-service.html">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-stripe.css">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            background: var(--primary-black);
+            color: var(--text-primary);
+            padding-top: 100px;
+        }
+
+        .legal-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 32px 120px;
+        }
+
+        .legal-header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .legal-header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--basque-green), var(--basque-red));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .legal-header .last-update {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .legal-header .lang-switcher {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 24px;
+        }
+
+        .legal-header .lang-switcher a {
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .legal-header .lang-switcher a:hover {
+            background: rgba(0,160,133,0.2);
+            color: var(--basque-green);
+        }
+
+        .legal-header .lang-switcher a.active {
+            background: var(--basque-green);
+            color: white;
+        }
+
+        .legal-content {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 48px;
+            backdrop-filter: blur(10px);
+        }
+
+        .legal-content h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 24px;
+            color: var(--basque-green);
+        }
+
+        .legal-content h2:first-child {
+            margin-top: 0;
+        }
+
+        .legal-content h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .legal-content p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .legal-content ul, .legal-content ol {
+            margin: 16px 0 24px 24px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .legal-content li {
+            margin-bottom: 12px;
+        }
+
+        .legal-content strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .legal-content a {
+            color: var(--basque-green);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .legal-content a:hover {
+            border-bottom-color: var(--basque-green);
+        }
+
+        .highlight-box {
+            background: rgba(0, 160, 133, 0.1);
+            border-left: 4px solid var(--basque-green);
+            padding: 24px;
+            margin: 24px 0;
+            border-radius: 8px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--basque-green);
+            text-decoration: none;
+            font-weight: 500;
+            margin-bottom: 32px;
+            transition: gap 0.3s ease;
+        }
+
+        .back-home:hover {
+            gap: 12px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(0, 160, 133, 0.1), rgba(214, 48, 49, 0.1));
+            border: 1px solid rgba(0, 160, 133, 0.3);
+            border-radius: 12px;
+            padding: 32px;
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            margin-top: 0;
+            color: var(--basque-green);
+        }
+
+        @media (max-width: 768px) {
+            .legal-page {
+                padding-top: 80px;
+            }
+
+            .legal-container {
+                padding: 40px 24px 80px;
+            }
+
+            .legal-header h1 {
+                font-size: 2rem;
+            }
+
+            .legal-content {
+                padding: 32px 24px;
+            }
+
+            .legal-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .legal-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.svg" alt="Herrika" class="logo">
+                    <span class="logo-text">Herrika</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="index.html#fonctionnalites" class="nav-link">Fonctionnalités</a>
+                <a href="index.html#faq" class="nav-link">FAQ</a>
+                <a href="index.html#apropos" class="nav-link">À propos</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Legal Content -->
+    <div class="legal-page">
+        <div class="legal-container">
+            <a href="index.html" class="back-home">
+                ← Retour à l'accueil
+            </a>
+
+            <div class="legal-header">
+                <h1>Conditions Générales d'Utilisation</h1>
+                <p class="last-update">Dernière mise à jour : 4 décembre 2024</p>
+                <div class="lang-switcher">
+                    <a href="conditions-generales.html" class="active">FR</a>
+                    <a href="terms-of-service.html">EN</a>
+                </div>
+            </div>
+
+            <div class="legal-content">
+                <div class="highlight-box">
+                    <p><strong>Important :</strong> En utilisant Herrika, vous acceptez les présentes Conditions Générales d'Utilisation. Veuillez les lire attentivement avant d'utiliser nos services.</p>
+                </div>
+
+                <h2>1. Présentation du Service</h2>
+                
+                <h3>1.1 Éditeur</h3>
+                <p>Le service Herrika est édité et exploité par :</p>
+                <ul>
+                    <li><strong>Nom :</strong> Association Herrichain</li>
+                    <li><strong>Site web de l'association :</strong> <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a></li>
+                    <li><strong>Forme juridique :</strong> Association loi 1901</li>
+                    <li><strong>RNA :</strong> W641015204 (Répertoire National des Associations)</li>
+                    <li><strong>Siège social :</strong> 257 avenue d'Atherbea, 64210 Bidart, France</li>
+                    <li><strong>Email :</strong> contact@herrika.org</li>
+                </ul>
+
+                <h3>1.2 Description du Service</h3>
+                <p>Herrika est un portefeuille numérique non-custodial (auto-détention) permettant aux utilisateurs de :</p>
+                <ul>
+                    <li>Gérer leurs actifs numériques en toute souveraineté</li>
+                    <li>Obtenir un IBAN européen sur blockchain via notre partenaire Monerium</li>
+                    <li>Effectuer des virements et paiements instantanés 24/7</li>
+                    <li>Utiliser des stablecoins euro (EURe) régulés</li>
+                    <li>Interagir avec la blockchain Gnosis Chain</li>
+                </ul>
+
+                <h3>1.3 Technologie</h3>
+                <p>Herrika utilise la technologie fournie par <strong>Ibex Wallet</strong> et s'appuie sur :</p>
+                <ul>
+                    <li><strong>Blockchain :</strong> Gnosis Chain</li>
+                    <li><strong>IBAN & Stablecoins :</strong> Monerium (régulé MiCA)</li>
+                    <li><strong>Principe :</strong> Auto-détention (vous seul contrôlez vos clés privées)</li>
+                </ul>
+
+                <h2>2. Acceptation des Conditions</h2>
+                
+                <p>L'utilisation du service Herrika implique l'acceptation pleine et entière des présentes Conditions Générales d'Utilisation (CGU).</p>
+                
+                <p>Si vous n'acceptez pas ces conditions, vous ne devez pas utiliser le service.</p>
+
+                <h2>3. Inscription et Compte Utilisateur</h2>
+
+                <h3>3.1 Conditions d'Inscription</h3>
+                <p>Pour utiliser Herrika, vous devez :</p>
+                <ul>
+                    <li>Être âgé d'au moins 18 ans</li>
+                    <li>Avoir la capacité juridique de contracter</li>
+                    <li>Fournir des informations exactes et à jour</li>
+                    <li>Respecter les lois et réglementations en vigueur dans votre pays de résidence</li>
+                </ul>
+
+                <h3>3.2 Création du Compte</h3>
+                <p>Lors de la création de votre compte, vous devez :</p>
+                <ul>
+                    <li>Générer et sauvegarder votre phrase de récupération (seed phrase)</li>
+                    <li>Conserver vos clés privées en lieu sûr</li>
+                    <li>Ne jamais partager vos informations d'accès avec des tiers</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>⚠️ Attention :</strong> Herrika étant un service non-custodial, nous ne stockons pas vos clés privées. En cas de perte de votre phrase de récupération, nous ne pourrons pas récupérer votre compte ou vos fonds.</p>
+                </div>
+
+                <h3>3.3 Sécurité du Compte</h3>
+                <p>Vous êtes seul responsable de :</p>
+                <ul>
+                    <li>La confidentialité de vos clés privées et phrase de récupération</li>
+                    <li>Toutes les activités effectuées depuis votre compte</li>
+                    <li>La sécurisation de vos appareils d'accès</li>
+                </ul>
+
+                <h2>4. Utilisation du Service</h2>
+
+                <h3>4.1 Usages Autorisés</h3>
+                <p>Vous pouvez utiliser Herrika pour :</p>
+                <ul>
+                    <li>Stocker et gérer vos actifs numériques</li>
+                    <li>Effectuer des transactions légales</li>
+                    <li>Interagir avec des applications décentralisées (dApps)</li>
+                    <li>Utiliser les services IBAN et stablecoins de Monerium</li>
+                </ul>
+
+                <h3>4.2 Usages Interdits</h3>
+                <p>Il est strictement interdit d'utiliser Herrika pour :</p>
+                <ul>
+                    <li>Toute activité illégale ou frauduleuse</li>
+                    <li>Le blanchiment d'argent ou le financement du terrorisme</li>
+                    <li>La violation de droits de propriété intellectuelle</li>
+                    <li>L'usurpation d'identité</li>
+                    <li>La diffusion de virus ou logiciels malveillants</li>
+                    <li>Toute activité portant atteinte aux droits des tiers</li>
+                </ul>
+
+                <h3>4.3 Conformité Réglementaire</h3>
+                <p>Vous vous engagez à :</p>
+                <ul>
+                    <li>Respecter les lois et réglementations applicables dans votre juridiction</li>
+                    <li>Déclarer vos actifs numériques conformément aux obligations fiscales</li>
+                    <li>Coopérer en cas de demande légitime des autorités</li>
+                </ul>
+
+                <h2>5. Responsabilités</h2>
+
+                <h3>5.1 Responsabilité de l'Utilisateur</h3>
+                <p>Vous reconnaissez et acceptez que :</p>
+                <ul>
+                    <li>Vous êtes seul responsable de la gestion de vos clés privées</li>
+                    <li>Les transactions blockchain sont irréversibles</li>
+                    <li>Vous devez vérifier attentivement les adresses de destination</li>
+                    <li>Les actifs numériques comportent des risques de volatilité</li>
+                    <li>Vous utilisez le service à vos propres risques</li>
+                </ul>
+
+                <h3>5.2 Responsabilité de Herrichain</h3>
+                <p>L'association Herrichain s'engage à :</p>
+                <ul>
+                    <li>Fournir un service de qualité dans la mesure du possible</li>
+                    <li>Assurer la sécurité de l'infrastructure technique</li>
+                    <li>Informer les utilisateurs des évolutions du service</li>
+                </ul>
+
+                <p>Cependant, Herrichain ne peut être tenu responsable :</p>
+                <ul>
+                    <li>De la perte de vos clés privées ou phrase de récupération</li>
+                    <li>Des transactions effectuées par erreur</li>
+                    <li>Des défaillances de la blockchain Gnosis Chain</li>
+                    <li>Des interruptions de service indépendantes de notre volonté</li>
+                    <li>Des pertes liées à la volatilité des actifs numériques</li>
+                    <li>Des actes de tiers (piratage, phishing, etc.)</li>
+                </ul>
+
+                <h3>5.3 Limitation de Responsabilité</h3>
+                <div class="highlight-box">
+                    <p><strong>Le service Herrika est fourni "en l'état".</strong> L'association Herrichain ne garantit pas que le service sera exempt d'erreurs, ininterrompu ou totalement sécurisé.</p>
+                </div>
+
+                <h2>6. Services Tiers</h2>
+
+                <h3>6.1 Partenaires</h3>
+                <p>Herrika s'appuie sur des partenaires tiers :</p>
+                <ul>
+                    <li><strong>Ibex Wallet :</strong> Technologie de portefeuille</li>
+                    <li><strong>Monerium :</strong> Services IBAN et stablecoins EURe (régulé MiCA)</li>
+                    <li><strong>Gnosis Chain :</strong> Infrastructure blockchain</li>
+                </ul>
+
+                <h3>6.2 Conditions des Partenaires</h3>
+                <p>L'utilisation des services de nos partenaires est soumise à leurs propres conditions générales. Nous vous encourageons à les consulter :</p>
+                <ul>
+                    <li><a href="https://monerium.com/terms" target="_blank" rel="noopener noreferrer">Conditions Monerium</a></li>
+                    <li><a href="https://www.gnosis.io/terms" target="_blank" rel="noopener noreferrer">Conditions Gnosis Chain</a></li>
+                </ul>
+
+                <h2>7. Propriété Intellectuelle</h2>
+
+                <p>Tous les éléments du service Herrika (design, logo, code, contenu) sont protégés par les droits de propriété intellectuelle.</p>
+
+                <p>Le logo lauburu et l'identité visuelle de Herrika sont la propriété de l'association Herrichain.</p>
+
+                <p>Toute reproduction, représentation ou utilisation sans autorisation préalable est interdite.</p>
+
+                <h2>8. Données Personnelles</h2>
+
+                <h3>8.1 Collecte des Données</h3>
+                <p>Herrika collecte un minimum de données personnelles :</p>
+                <ul>
+                    <li>Adresse email (optionnelle)</li>
+                    <li>Données de connexion (adresse IP, horodatage)</li>
+                    <li>Données KYC pour les services Monerium (si applicable)</li>
+                </ul>
+
+                <h3>8.2 Utilisation des Données</h3>
+                <p>Vos données sont utilisées uniquement pour :</p>
+                <ul>
+                    <li>Le fonctionnement du service</li>
+                    <li>La conformité réglementaire</li>
+                    <li>L'amélioration de l'expérience utilisateur</li>
+                </ul>
+
+                <h3>8.3 Protection des Données</h3>
+                <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données.</p>
+
+                <p>Pour exercer vos droits : <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+
+                <h2>9. Frais et Tarification</h2>
+
+                <h3>9.1 Gratuité du Service</h3>
+                <p>Le service Herrika est actuellement gratuit. Aucun frais n'est facturé par l'association Herrichain.</p>
+
+                <h3>9.2 Frais de Blockchain</h3>
+                <p>Cependant, vous devez vous acquitter des :</p>
+                <ul>
+                    <li><strong>Frais de gas :</strong> Frais de transaction sur Gnosis Chain (payés en xDAI)</li>
+                    <li><strong>Frais Monerium :</strong> Éventuels frais pour les services IBAN (selon conditions Monerium)</li>
+                </ul>
+
+                <h3>9.3 Évolution Tarifaire</h3>
+                <p>L'association Herrichain se réserve le droit d'introduire des frais à l'avenir, avec un préavis de 30 jours minimum.</p>
+
+                <h2>10. Modification du Service</h2>
+
+                <p>L'association Herrichain se réserve le droit de :</p>
+                <ul>
+                    <li>Modifier, suspendre ou interrompre tout ou partie du service</li>
+                    <li>Ajouter ou supprimer des fonctionnalités</li>
+                    <li>Modifier les présentes CGU</li>
+                </ul>
+
+                <p>Les utilisateurs seront informés des modifications importantes par email ou notification dans l'application.</p>
+
+                <h2>11. Résiliation</h2>
+
+                <h3>11.1 Résiliation par l'Utilisateur</h3>
+                <p>Vous pouvez cesser d'utiliser Herrika à tout moment. Il vous suffit de :</p>
+                <ul>
+                    <li>Transférer vos actifs vers un autre portefeuille</li>
+                    <li>Désinstaller l'application</li>
+                    <li>Demander la suppression de vos données (si applicable)</li>
+                </ul>
+
+                <h3>11.2 Résiliation par Herrichain</h3>
+                <p>L'association Herrichain peut suspendre ou résilier votre accès en cas de :</p>
+                <ul>
+                    <li>Violation des présentes CGU</li>
+                    <li>Activité suspecte ou frauduleuse</li>
+                    <li>Demande des autorités compétentes</li>
+                    <li>Non-respect des obligations légales</li>
+                </ul>
+
+                <h2>12. Droit Applicable et Juridiction</h2>
+
+                <p>Les présentes CGU sont régies par le droit français.</p>
+
+                <p>En cas de litige, les parties s'efforceront de trouver une solution amiable.</p>
+
+                <p>À défaut, les tribunaux français seront seuls compétents.</p>
+
+                <h2>13. Dispositions Diverses</h2>
+
+                <h3>13.1 Intégralité de l'Accord</h3>
+                <p>Les présentes CGU constituent l'intégralité de l'accord entre vous et l'association Herrichain.</p>
+
+                <h3>13.2 Nullité Partielle</h3>
+                <p>Si une clause des CGU est déclarée nulle ou inapplicable, les autres clauses restent en vigueur.</p>
+
+                <h3>13.3 Renonciation</h3>
+                <p>Le fait de ne pas exercer un droit ne constitue pas une renonciation à ce droit.</p>
+
+                <h3>13.4 Cession</h3>
+                <p>Vous ne pouvez pas céder vos droits ou obligations sans notre accord préalable.</p>
+
+                <h2>14. Contact</h2>
+
+                <div class="contact-box">
+                    <h3>Des questions sur nos CGU ?</h3>
+                    <p>Pour toute question concernant les présentes Conditions Générales d'Utilisation, vous pouvez nous contacter :</p>
+                    <p>
+                        <strong>Association Herrichain</strong><br>
+                        RNA : W641015204<br>
+                        257 avenue d'Atherbea<br>
+                        64210 Bidart, France
+                    </p>
+                    <p>
+                        Email : <a href="mailto:contact@herrika.org">contact@herrika.org</a><br>
+                        Site web : <a href="https://www.herrika.org">www.herrika.org</a><br>
+                        Site de l'association : <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a>
+                    </p>
+                </div>
+
+                <p style="margin-top: 48px; text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
+                    <em>Dernière mise à jour : 4 décembre 2024</em>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

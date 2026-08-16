@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herrika Wallet - Terms of Service</title>
+    <meta name="description" content="Terms of Service for Herrika Wallet mobile application">
+    <link rel="canonical" href="https://www.herrika.org/app-terms">
+    <link rel="alternate" hreflang="en" href="https://www.herrika.org/app-terms.html">
+    <link rel="alternate" hreflang="fr" href="https://www.herrika.org/app-terms-fr.html">
+    <link rel="alternate" hreflang="es" href="https://www.herrika.org/app-terms-es.html">
+    <link rel="alternate" hreflang="eu" href="https://www.herrika.org/app-terms-eu.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-stripe.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <style>
+        .legal-page { min-height: 100vh; background: var(--primary-black); color: var(--text-primary); padding-top: 100px; }
+        .legal-container { max-width: 900px; margin: 0 auto; padding: 60px 32px 120px; }
+        .legal-header { margin-bottom: 60px; text-align: center; }
+        .legal-header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 3rem; font-weight: 700; margin-bottom: 16px; background: linear-gradient(135deg, var(--basque-green), var(--basque-red)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .legal-header .last-update { color: var(--text-secondary); font-size: 0.95rem; }
+        .legal-header .lang-switcher { display: flex; gap: 12px; justify-content: center; margin-top: 24px; }
+        .legal-header .lang-switcher a { padding: 8px 16px; background: rgba(255,255,255,0.05); border-radius: 8px; color: var(--text-secondary); text-decoration: none; transition: all 0.3s ease; }
+        .legal-header .lang-switcher a:hover { background: rgba(0,160,133,0.2); color: var(--basque-green); }
+        .legal-header .lang-switcher a.active { background: var(--basque-green); color: white; }
+        .legal-content { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 48px; backdrop-filter: blur(10px); }
+        .legal-content h2 { font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem; font-weight: 600; margin-top: 48px; margin-bottom: 24px; color: var(--basque-green); }
+        .legal-content h2:first-child { margin-top: 0; }
+        .legal-content h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.3rem; font-weight: 600; margin-top: 32px; margin-bottom: 16px; color: var(--text-primary); }
+        .legal-content p { line-height: 1.8; margin-bottom: 16px; color: var(--text-secondary); }
+        .legal-content ul { margin: 16px 0 24px 24px; line-height: 1.8; color: var(--text-secondary); }
+        .legal-content li { margin-bottom: 12px; }
+        .legal-content strong { color: var(--text-primary); font-weight: 600; }
+        .legal-content a { color: var(--basque-green); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.3s ease; }
+        .legal-content a:hover { border-bottom-color: var(--basque-green); }
+        .tldr-box { background: rgba(0, 160, 133, 0.1); border-left: 4px solid var(--basque-green); padding: 16px 24px; margin: 24px 0; border-radius: 8px; font-size: 0.95rem; }
+        .tldr-box strong { color: var(--basque-green); }
+        .warning-box { background: rgba(214, 48, 49, 0.1); border-left: 4px solid var(--basque-red); padding: 24px; margin: 24px 0; border-radius: 8px; }
+        .warning-box strong { color: var(--basque-red); }
+        .back-home { display: inline-flex; align-items: center; gap: 8px; color: var(--basque-green); text-decoration: none; font-weight: 500; margin-bottom: 32px; transition: gap 0.3s ease; }
+        .back-home:hover { gap: 12px; }
+        @media (max-width: 768px) {
+            .legal-page { padding-top: 80px; }
+            .legal-container { padding: 40px 24px 80px; }
+            .legal-header h1 { font-size: 2rem; }
+            .legal-content { padding: 32px 24px; }
+            .legal-content h2 { font-size: 1.5rem; }
+            .legal-content h3 { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="logo.svg" alt="Herrika" class="logo">
+                    <span class="logo-text">Herrika</span>
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#fonctionnalites" class="nav-link">Features</a>
+                <a href="index.html#faq" class="nav-link">FAQ</a>
+                <a href="index.html#apropos" class="nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="legal-page">
+        <div class="legal-container">
+            <a href="index.html" class="back-home">← Back to Home</a>
+            <div class="legal-header">
+                <h1>Herrika Wallet - Terms of Service</h1>
+                <p class="last-update">Last updated: December 4, 2024</p>
+                <div class="lang-switcher">
+                    <a href="app-terms-fr.html">FR</a>
+                    <a href="app-terms.html" class="active">EN</a>
+                    <a href="app-terms-es.html">ES</a>
+                    <a href="app-terms-eu.html">EU</a>
+                </div>
+            </div>
+
+            <div class="legal-content">
+                <div class="warning-box">
+                    <p><strong>⚠️ IMPORTANT NOTE:</strong> These Terms of Service govern your use of the <strong>Herrika Wallet mobile application</strong> (app.herrika.org), not the website. By using the app, you agree to binding arbitration and waive class action rights. Please read Section 11 carefully.</p>
+                </div>
+
+                <h2>Welcome to Herrika Wallet!</h2>
+                <p>These Terms of Service ("Terms") exclusively govern your use and access of <strong>Herrika Wallet</strong>, a self-hosted wallet mobile client (the "Application", "App"). The Application provides a self-hosted wallet for various Blockchain Networks with additional services (the "Wallet").</p>
+                
+                <p>The Application website <strong>app.herrika.org</strong> is edited by:</p>
+                <ul>
+                    <li><strong>Herrichain</strong>, a French non-profit Association (loi 1901)</li>
+                    <li><strong>Association website:</strong> <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a></li>
+                    <li><strong>RNA:</strong> W641015204</li>
+                    <li><strong>Address:</strong> 257 avenue d'Atherbea, 64210 Bidart, France</li>
+                    <li><strong>Email:</strong> <a href="mailto:contact@herrika.org">contact@herrika.org</a></li>
+                </ul>
+
+                <p><strong>Please read these Terms carefully.</strong> By downloading, using or accessing the App, creating or importing a Wallet, you agree to be bound by these Terms as well as Herrika Wallet Privacy Policy.</p>
+
+                <h3>Definitions</h3>
+                <p>To make these Terms easier to read:</p>
+                <ul>
+                    <li>"<strong>Herrika Wallet</strong>", "<strong>we</strong>", "<strong>us</strong>" or "<strong>our</strong>" refers to Herrika Wallet and Herrichain</li>
+                    <li>"<strong>You</strong>" and "<strong>your</strong>" refers to anybody who downloads, accesses or uses the Application</li>
+                </ul>
+
+                <p>If you have any questions, please contact us at <a href="mailto:contact@herrika.org">contact@herrika.org</a></p>
+
+                <h2>1. Eligibility</h2>
+                
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> If you use the Application you state that you (a) are at least 18; (b) don't break any laws of your jurisdiction; (c) are not a Restricted Person; and (d) are not located in any Prohibited Localities.</p>
+                </div>
+
+                <h3>1.1 General</h3>
+                <p>You may not use the Application if you are barred from using it under applicable law. You may not use the Application if you are under 18 (eighteen) years old.</p>
+
+                <h3>1.2 Legality</h3>
+                <p>You are solely responsible for following all laws and regulations applicable to you and your use or access of the App. If your use or access of the App conflicts with any applicable law, rule or regulation, you may not use the App.</p>
+
+                <h3>1.3 Restricted Persons</h3>
+                <p>Herrika Wallet does not onboard entities or individuals which have been classified by international organizations or governmental authorities as belonging to Sanction Lists ("Restricted Persons"). Restricted Persons also include all persons or entities who reside in, are citizens of, are incorporated in, or have a registered office in the Prohibited Localities.</p>
+
+                <h3>1.4 Prohibited Localities</h3>
+                <p>Herrika Wallet cannot onboard entities or individuals located in, established in, or resident of:</p>
+                <p style="font-size: 0.9rem;">Algeria, Afghanistan, Bangladesh, Bolivia, Burundi, Central African Republic, China, Crimea Region of Ukraine, Cuba, Democratic Republic of Congo, Donetsk People's Republic, Eritrea, Guinea, Republic of Guinea-Bissau, Haiti, Hong Kong, Indonesia, Iran, Iraq, Lebanon, Libya, Luhansk People's Republic, Mali, Morocco, Myanmar (Burma), Nepal, Nicaragua, North Korea, Pakistan, Singapore, Somalia, Sudan, South Sudan, Syria, Venezuela, Yemen, Zimbabwe, or any other state included in the Sanction Lists.</p>
+
+                <p>By using the App, you represent that you are not subject to Sanction Lists and you are not a Restricted Person.</p>
+
+                <h3>1.5 Third-Party Restrictions</h3>
+                <p>The Application may include Third-Party Services. Your interaction with these services is governed by their respective terms and conditions. We only facilitate your interaction with those services and bear no liability for any restrictions thereof.</p>
+
+                <h3>1.6 Non-Circumvention</h3>
+                <p>You agree not to access the Application using any technology for the purposes of circumventing these Terms.</p>
+
+                <h2>2. Application</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> The Application is a Wallet that allows you to send and receive Virtual Currency on Blockchain Networks. We have no oversight or control with respect to your Virtual Currency or transactions. We do not store, send, or receive Virtual Currency. All transfers occur on Blockchain Networks, not on our network.</p>
+                </div>
+
+                <p>The Application is a software that:</p>
+                <ul>
+                    <li><strong>(a)</strong> Generates Wallet addresses and encrypted private keys for Ethereum, Ethereum layer 2 solutions or other blockchain networks for cryptocurrency, digital tokens or digital assets ("Virtual Currency")</li>
+                    <li><strong>(b)</strong> Facilitates the submission of Virtual Currency transaction data to Blockchain Networks without requiring you to download or install the associated Blockchain Network-based software</li>
+                    <li><strong>(c)</strong> Facilitates the adoption of decentralized assets by grouping them by 'abstraction', enabling them to be read by the nature of the equivalent underlying asset</li>
+                </ul>
+
+                <p>The Application may automatically source your transaction through third-party services that may create benefits based on price differences. However, such sourcing shall by no means affect the financial and technical outcome of your transaction.</p>
+
+                <h3>2.1 Third-Party Services</h3>
+                <p>To operate the App, we may engage third-party providers and/or third-party API ("Third-Party Services"). Your use of Third-Party Services is subject to separate contractual agreements with respective third parties. You expressly release Herrika Wallet from any liability arising from use of any Third-Party Services.</p>
+
+                <h3>2.2 Third-Party Content</h3>
+                <p>The App may feature content from third parties ("Third-Party Content"). Such content is provided for your convenience and information only. The inclusion of Third-Party Content does not imply endorsement by us. You engage with Third-Party Content at your sole risk.</p>
+
+                <h3>2.3 Currency Conversion</h3>
+                <p>The reference currency chosen by you can lead to a conversion when digital assets are displayed. These conversions are for information purposes only and do not represent a commitment on the part of Herrika Wallet.</p>
+
+                <h3>2.4 News and Updates</h3>
+                <p>The Application may occasionally provide news or updates. Such display does not constitute any endorsement or partnership. Herrika Wallet makes no representation or warranty regarding the accuracy of such information.</p>
+
+                <h3>2.5 Your Wallet</h3>
+                <p>When you create a Wallet, you will be assigned a private key. You will be prompted to download and save a keystore. <strong>You are responsible for maintaining the confidentiality of your private key</strong> and will be fully responsible for all activities under your Wallet.</p>
+
+                <p>Herrika Wallet only displays a restricted list of validated assets. If you wish to move digital assets not supported by Herrika Wallet, you will need to use another interface and your private key.</p>
+
+                <h3>2.6 Blockchain Networks Transactions</h3>
+                <p>All Virtual Currency transactions must be confirmed and recorded in the public blockchain. These networks are decentralized, peer-to-peer networks supported by independent third parties, which we do not own, control, or operate.</p>
+
+                <div class="warning-box">
+                    <p><strong>⚠️ Important:</strong> We have no control over Blockchain Networks and cannot ensure that transactions will be completed or processed. Transaction details you submit may not be completed or may be substantially delayed.</p>
+                </div>
+
+                <p>We do not store, transfer, transmit, convert, broker, hold, escrow, mint, mine, or otherwise interact with any Virtual Currency. All interactions occur on third-party platforms. We are not responsible for any errors or omissions you make in connection with any Virtual Currency transaction.</p>
+
+                <h3>2.7 Buying Virtual Currencies</h3>
+                <p>The App may allow you to buy Virtual Currencies for fiat currencies through third-party providers. You will enter into a direct contractual relationship with these providers. Although we facilitate your access, we are not responsible for these transactions and take no part in them.</p>
+
+                <p><strong>We and the Application are not a Virtual Currencies exchange.</strong></p>
+
+                <h3>2.8 Push Notifications</h3>
+                <p>You may agree to receive push notifications from the Application. You can manage these settings in your device's "Settings" menu.</p>
+
+                <p>We reserve the right to make changes to how we operate the App, including adding, modifying, suspending, or terminating features at any time without notice.</p>
+
+                <h2>3. Wallet Registration and Security</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> We encrypt information locally with a password you provide. We do not store it on our servers. You are solely responsible for maintaining the security of your private key. We cannot assist with password retrieval or generate a new password. Keep backups and limit access to your Wallet.</p>
+                </div>
+
+                <p>Herrika Wallet encrypts information locally with a password you provide, that we never send to our servers. Alternatively, information could be stored in encrypted form in Apple iCloud if enabled.</p>
+
+                <p><strong>You are solely responsible for maintaining the security and backup of your private key.</strong> You must keep your Wallet address and private key secure. Failure to do so may result in loss of control of Virtual Currencies.</p>
+
+                <p>Herrika Wallet stores your Wallet address but does not receive or store your encrypted or unencrypted private key. <strong>We cannot assist you with Wallet retrieval.</strong> We cannot generate a new key if you forget your original one.</p>
+
+                <div class="warning-box">
+                    <p><strong>⚠️ Critical:</strong> If you have not safely stored a backup of your Wallet address and private key pairs, any Virtual Currency associated with such Wallet will become permanently inaccessible if you lose your backup.</p>
+                </div>
+
+                <h3>3.1 Cloud Sync</h3>
+                <p>Herrika Wallet may optionally use Apple CloudKit to sync data between your Apple devices (iPhone, iPad, Apple Watch). Your data is stored in a private database, encrypted with an account-based key and additionally encrypted with a user-provided passphrase. We do not have access to any data stored in your iCloud account or your Apple ID.</p>
+
+                <p>Similar technology can be used in Android/Chrome and Microsoft environments.</p>
+
+                <h3>3.2 Security Precautions</h3>
+                <p>When you create a Wallet, you are strongly advised to:</p>
+                <ul>
+                    <li><strong>(a)</strong> Use the backup functionality or safeguard your private key on an external hard drive (especially if you have more than $10,000 USD in assets)</li>
+                    <li><strong>(b)</strong> Maintain security by protecting your private key and limiting access to your computer and Wallet</li>
+                    <li><strong>(c)</strong> Promptly notify us if you discover or suspect any security breaches</li>
+                </ul>
+
+                <h2>4. Risk Assessment</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> Risk assessment may be conducted using Third-Party Services to monitor wallet addresses for non-compliant behavior. We reserve the right to block or restrict access to wallets associated with illicit activity. We hold no liability for such assessment or accuracy of Third-Party Services.</p>
+                </div>
+
+                <p>Herrika Wallet may use publicly available information and Third-Party Services to assess risks associated with illicit activities, phishing, or other potential threats.</p>
+
+                <div class="warning-box">
+                    <p><strong>⚠️ Smart Contract Risks:</strong> Transactions rely on smart contracts and experimental technology. These are inherently risky and subject to bugs, malfunctions, cyberattacks, or blockchain forks that could result in total loss of Digital Assets. <strong>Blockchain entries are immutable and cannot be undone by us or anyone.</strong></p>
+                </div>
+
+                <p>Herrika Wallet users expressly acknowledge the Services are provided on the blockchain and are carried out immediately. <strong>Users expressly waive their right of withdrawal</strong> and give express consent for immediate execution.</p>
+
+                <h3>4.1 Compliance Assessment</h3>
+                <p>Herrika Wallet reserves the right to use publicly available information and Third-Party Services to assess wallet addresses for risks of money laundering, terrorism financing, fraud, or other illicit activities. We do not collect additional personal data for such assessments.</p>
+
+                <p>You acknowledge that risk assessment results lie in the sole discretion of third-party providers. Herrika Wallet has no control over these services and is not responsible for their accuracy.</p>
+
+                <p>Herrika Wallet reserves the right to block or restrict any activity associated with illicit activities. If you believe you have been blocked by mistake, contact us at <a href="mailto:contact@herrika.org">contact@herrika.org</a>.</p>
+
+                <h3>4.2 Phishing Alerts</h3>
+                <p>Herrika Wallet may occasionally provide phishing and risk alerts. These are provided for informational purposes only, without warranties regarding accuracy or reliability. You are solely responsible for assessing their applicability.</p>
+
+                <p>You acknowledge that risk alerts are provided "as-is" and assume all associated risks. Herrika Wallet shall not be held liable for any claims or losses arising from such alerts.</p>
+
+                <h2>5. Your Use of Application</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> Do not harm Herrika Wallet, the Application, or other users. You're ultimately responsible for any interaction with the Application. Review and obtain additional information before generating Wallet addresses.</p>
+                </div>
+
+                <p>By using the Application, you represent and warrant that you understand the inherent risks associated with Virtual Currency and underlying technologies (cryptography, blockchain, digital wallets). You agree that Herrika Wallet is not responsible for any losses or damages associated with these risks.</p>
+
+                <p>You specifically acknowledge that we have no control over any blockchain or Blockchain Networks and cannot ensure that transactions will be confirmed on the relevant blockchain.</p>
+
+                <p>You agree to:</p>
+                <ul>
+                    <li><strong>(a)</strong> Never share your wallet with someone else</li>
+                    <li><strong>(b)</strong> Secure access to your Herrika Wallet application via your smartphone or desktop</li>
+                    <li><strong>(c)</strong> Immediately notify Herrika Wallet of any unauthorized use or security breach</li>
+                </ul>
+
+                <h3>5.1 Prohibited Uses</h3>
+                <p>You agree that you will not use the Application in a manner that:</p>
+                <ul>
+                    <li>Infringes or violates intellectual property rights or any other rights of anyone else (including us)</li>
+                    <li>Is illegal, harmful, fraudulent, deceptive, threatening, harassing, defamatory, obscene, or otherwise objectionable</li>
+                    <li>Violates laws regarding money-laundering, drug trafficking, human trafficking, weapon trafficking, terrorism, securities fraud, or tax evasion</li>
+                    <li>Jeopardizes the security of your wallet or anyone else's</li>
+                    <li>Attempts to obtain private keys, passwords, or security information from any other user</li>
+                    <li>Violates the security of any computer network or cracks passwords or security encryption codes</li>
+                    <li>Decompiles, reverse engineers, or attempts to obtain the source code of the Application</li>
+                </ul>
+
+                <h2>6. Fees</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> Herrika Wallet does not charge fees for access to the Application. However, you may incur blockchain charges ("gas" fees) and third-party provider fees.</p>
+                </div>
+
+                <p>While we do not charge fees for access to the Application, we reserve the right to charge fees in the future. You may incur the following charges:</p>
+
+                <h3>6.1 Blockchain Charges</h3>
+                <p>You agree to bear all costs necessary to conduct a transaction, such as "gas" costs on Ethereum, Ethereum layer 2 solutions, or other blockchain networks. We will try to provide accurate estimates, but this information is highly volatile and we cannot guarantee its accuracy.</p>
+
+                <p>You acknowledge that Herrika Wallet has no control over: (a) any transactions within Blockchain Networks; (b) the calculation or payment method of any gas charges; or (c) the mandatory mechanism for settling technical costs of level 1 or 2 blockchains. These fees are deducted directly from your transaction.</p>
+
+                <h3>6.2 Charges by Providers</h3>
+                <p>The App may allow you to buy Virtual Currencies through third-party providers. We do not take part in these transactions and are not responsible for any fees involved. It is your responsibility to check their fee rates.</p>
+
+                <h3>6.3 Third-Party Fees</h3>
+                <p>If you access the App and use third-party services functionality, any fees charged are exclusively by such third-party services, not by us. Please read their fee terms before using such functionality.</p>
+
+                <h2>7. Disclaimers</h2>
+
+                <div class="warning-box">
+                    <p><strong>⚠️ IMPORTANT:</strong> This section explains that we don't make any warranties about the Application or Content. Please read carefully.</p>
+                </div>
+
+                <p>You understand and agree that <strong>Herrika Wallet is a software developer and provider</strong> and does not custody, control, or manage user funds in any manner whatsoever. We do not have access to your private key and cannot initiate a transfer of Virtual Currency or otherwise access your Virtual Currency or Wallet.</p>
+
+                <h3>7.1 No Warranties</h3>
+                <p>You expressly understand and agree that <strong>your use of the Application is at your sole risk</strong>. We make and expressly disclaim all representations and warranties, express, implied or statutory. We specifically do not represent or warrant:</p>
+                <ul>
+                    <li>Title, non-infringement, merchantability, usage, security, suitability or fitness for any particular purpose</li>
+                    <li>Workmanship or technical coding, or absence of defects (whether latent or patent)</li>
+                    <li>That the Application, code, and related information are accurate, complete, reliable, current or error-free</li>
+                </ul>
+
+                <p><strong>The Application is provided on an "as is" and "as available" basis</strong>, without warranties of any kind, either express or implied.</p>
+
+                <h3>7.2 Private Keys</h3>
+                <p>You acknowledge that Herrika Wallet is not responsible for transferring, safeguarding, or maintaining your private keys or any Virtual Currency associated therewith. <strong>If you lose, mishandle or have stolen your private keys, you may not be able to recover associated Virtual Currency</strong>, and Herrika Wallet is not responsible for such loss.</p>
+
+                <h3>7.3 Blockchain Applications</h3>
+                <p>You acknowledge that blockchain applications are code subject to flaws and that you are solely responsible for evaluating any code provided by the App or Content. You expressly acknowledge that blockchain applications can be written maliciously or negligently, that Herrika Wallet cannot be held liable for your interaction with such applications, and that such applications may cause loss of property or identity.</p>
+
+                <h3>7.4 No Guarantee of Availability</h3>
+                <p>To the maximum extent permitted under applicable law, the Application is provided "AS IS" and "AS AVAILABLE". We do not represent or warrant that the Application will be uninterrupted, available at any particular time, or error-free. We do not warrant that errors will be corrected.</p>
+
+                <h2>8. Indemnification</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> If someone sues us because of something you did, you're responsible for it.</p>
+                </div>
+
+                <p>You agree to hold harmless, release, defend, and indemnify us and our officers, directors, employees, contractors, agents, affiliates, and subsidiaries from and against all claims, damages, obligations, losses, liabilities, costs and expenses arising from:</p>
+                <ul>
+                    <li><strong>(a)</strong> Your access to and use of the Application</li>
+                    <li><strong>(b)</strong> Your violation of these Terms, the right of any third party, or any other applicable law, rule, or regulation</li>
+                    <li><strong>(c)</strong> Any other party's access and use of the Application with your assistance or using any device or account that you own or control</li>
+                </ul>
+
+                <h2>9. Limitation of Liability</h2>
+
+                <div class="warning-box">
+                    <p><strong>⚠️ CRITICAL:</strong> This section limits our liability. Please read carefully.</p>
+                </div>
+
+                <p>You expressly understand and agree that <strong>Herrika Wallet and our affiliates, service providers, officers, directors, agents, employees, and representatives will not be liable</strong> for any indirect, incidental, special, consequential, exemplary damages, or damages for loss of profits including:</p>
+                <ul>
+                    <li>Loss of goodwill, use, data, or other intangible losses</li>
+                    <li>The access, use or inability to access or use the App</li>
+                    <li>Cost of procurement of substitute goods and services</li>
+                    <li>Unauthorized access to or alteration of your transmissions or data</li>
+                    <li>Any other matter relating to the App</li>
+                </ul>
+
+                <p><strong>In no event will Herrika Wallet's aggregate liability exceed the amount of fees paid by you to us in the twelve (12) month period immediately preceding the event giving rise to the claim.</strong></p>
+
+                <h2>10. Intellectual Property Rights</h2>
+
+                <div class="tldr-box">
+                    <p><strong>TL;DR:</strong> Our content is ours.</p>
+                </div>
+
+                <h3>10.1 Our Content</h3>
+                <p>The Application and all information, data, text, images, software, scripts, graphics, and interactive features are owned by us, our licensors or other providers, and subject to copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.</p>
+
+                <p>Herrika Wallet and associated names, logos and related names, logos, product and service names, designs and slogans are trademarks of Herrika Wallet or its affiliates or licensors. You must not use such marks without our prior written permission.</p>
+
+                <h3>10.2 Limited License</h3>
+                <p>We grant you limited, non-exclusive, revocable permission to make use of the App ("Access"). This Access shall remain in effect until terminated by you or us. You promise and agree that you will not redistribute or transfer the App.</p>
+
+                <p>The Herrika Wallet software application is not sold or transferred to you, and Herrika Wallet and its licensors retain ownership of all copies even after installation on your Devices.</p>
+
+                <p>All trademarks, service marks, trade names, logos, domain names, and any other features of the Herrika Wallet brand are the sole property of Herrika Wallet or its licensors. These Terms do not grant you any rights to use any Herrika Wallet brand features.</p>
+
+                <h3>10.3 License Restrictions</h3>
+                <p>Except as expressly set out in these Terms or as specifically permitted by local law, you agree:</p>
+                <ul>
+                    <li>Not to copy the App except where incidental to normal use or necessary for back-up or operational security</li>
+                    <li>Not to rent, lease, sub-license, loan, translate, merge, adapt, vary or modify the App</li>
+                    <li>Not to make alterations to, or modifications of, the whole or any part of the App</li>
+                    <li>Not to disassemble, decompile, reverse-engineer or create derivative works based on the App</li>
+                    <li>Not to provide or make available the App in whole or in part to any person without prior written consent</li>
+                    <li>To comply with all technology control or export laws and regulations</li>
+                </ul>
+
+                <h3>10.4 Your Data</h3>
+                <p>Please see our Privacy Policy for information on how we collect, use and share your information.</p>
+
+                <h2>11. Arbitration and Class Action Waiver</h2>
+
+                <div class="warning-box">
+                    <p><strong>⚠️ IMPORTANT:</strong> A third-party arbitrator will help us resolve any disputes. This means any dispute will be resolved outside of class-action litigation. Please read this section carefully.</p>
+                </div>
+
+                <h3>11.1 Binding Arbitration</h3>
+                <p>Except for disputes in which either party seeks to bring an individual action in small claims court or seeks injunctive or other equitable relief for alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets or patents, you and Herrika Wallet:</p>
+                <ul>
+                    <li><strong>(a)</strong> Waive the right to have any and all disputes or claims resolved in a court</li>
+                    <li><strong>(b)</strong> Waive any right to a jury trial</li>
+                </ul>
+
+                <p>Instead, you and Herrika Wallet agree to arbitrate disputes through binding arbitration.</p>
+
+                <h3>11.2 No Class Arbitrations, Class Actions or Representative Actions</h3>
+                <p>You and Herrika Wallet agree that any dispute is personal to you and Herrika Wallet and will be resolved solely through individual arbitration and will not be brought as a class arbitration, class action or any other type of representative proceeding.</p>
+
+                <p><strong>Neither party agrees to class arbitration or to an arbitration in which an individual attempts to resolve a dispute as a representative of another individual or group of individuals.</strong></p>
+
+                <h3>11.3 Process</h3>
+                <p>You and Herrika Wallet agree that each will notify the other, in writing, of any dispute within thirty (30) days of when it arises so that the parties can attempt, in good faith, to resolve the dispute informally.</p>
+
+                <p>Notice to Herrika Wallet shall be provided by sending an email to <a href="mailto:contact@herrika.org">contact@herrika.org</a>. Your notice must include:</p>
+                <ul>
+                    <li><strong>(1)</strong> Your name, postal address, and email address</li>
+                    <li><strong>(2)</strong> A description of the nature or basis of the dispute</li>
+                    <li><strong>(3)</strong> The specific action that you are seeking</li>
+                </ul>
+
+                <p>If you and Herrika Wallet cannot resolve the dispute within thirty (30) days, either party may commence an arbitration proceeding. <strong>Any arbitration or claim must be commenced or filed within one (1) year after the dispute arose</strong>; otherwise, the claim is permanently barred.</p>
+
+                <h3>11.4 Choice of Law</h3>
+                <p>These Terms are governed by and will be construed under the laws of <strong>France</strong> without regard to conflicts of law provisions. Any unresolved dispute shall be finally resolved by arbitration under the rules of the <strong>London Court of International Arbitration (LCIA)</strong>.</p>
+
+                <p>Any dispute arising from or relating to these Terms shall be finally settled in <strong>London, United Kingdom</strong>, in English, in accordance with the LCIA Arbitration Rules.</p>
+
+                <h3>11.5 Authority of Arbitrator</h3>
+                <p>As limited by these Terms and applicable arbitration rules, the arbitrator will have:</p>
+                <ul>
+                    <li><strong>(a)</strong> The exclusive authority and jurisdiction to make all procedural and substantive decisions regarding a dispute</li>
+                    <li><strong>(b)</strong> The authority to grant any remedy that would otherwise be available in court</li>
+                </ul>
+
+                <p>The arbitrator may only conduct an individual arbitration and may not consolidate more than one individual's claims or preside over any type of class or representative proceeding.</p>
+
+                <h2>12. Final Provisions</h2>
+
+                <h3>12.1 Changes</h3>
+                <p>We may amend any portion of these Terms at any time by posting the revised version with an updated revision date. The changes will become effective and shall be deemed accepted by you the first time you use or access the Application after the initial posting.</p>
+
+                <p>If you do not agree with any modification, your sole remedy is to terminate your use of the Application.</p>
+
+                <h3>12.2 Third-Party Links</h3>
+                <p>The Application may provide links to other websites, applications or resources provided by third parties. Because we have no control over such sites, applications and resources, you acknowledge and agree that we are not responsible for their content and availability.</p>
+
+                <p>We do not endorse and are not responsible or liable for any content, products or other materials on or available from such sites, applications or resources.</p>
+
+                <h3>12.3 Entire Agreement</h3>
+                <p>These Terms (and any additional terms, rules and conditions) constitute the entire agreement with respect to the Application and supersede any prior agreements, oral or written.</p>
+
+                <h3>12.4 Survival</h3>
+                <p>Upon termination of these Terms for any reason, all rights and obligations of the parties that by their nature are continuing will survive such termination.</p>
+
+                <h3>12.5 Severability</h3>
+                <p>If any provision of these Terms is deemed invalid or unenforceable, the validity and enforceability of the remaining provisions shall remain unaffected. Any invalid or unenforceable portions will be severed from these Terms, while the remaining provisions remain in full force and effect.</p>
+
+                <h3>12.6 Captions and Summaries</h3>
+                <p>The captions identifying sections are for reference only and do not define, modify, expand, or limit any provisions of these Terms. The paragraphs accompanying "TL;DR" are intended to summarize sections and do not define, modify, expand, or limit any provisions.</p>
+
+                <h2>Contact</h2>
+
+                <p>If you have any questions, claims, complaints or suggestions, please contact us at:</p>
+                
+                <div class="tldr-box">
+                    <p><strong>Association Herrichain</strong><br>
+                    RNA: W641015204<br>
+                    257 avenue d'Atherbea<br>
+                    64210 Bidart, France</p>
+                    <p>Email: <a href="mailto:contact@herrika.org">contact@herrika.org</a><br>
+                    Website: <a href="https://www.herrika.org">www.herrika.org</a><br>
+                    Association Website: <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a></p>
+                </div>
+
+                <p style="margin-top: 48px; text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
+                    <em>Last updated: December 4, 2024</em>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

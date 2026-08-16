@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Herrika - Compte bancaire souverain et décentralisé | IBAN blockchain</title>
+    <meta name="title" content="Herrika - Compte bancaire souverain et décentralisé | IBAN blockchain">
+    <meta name="description" content="Ton compte en auto-détention avec IBAN européen sur blockchain. Virements et paiements instantanés gratuits 24/7. Zéro frais, zéro blocage, zéro intermédiaire. Sécurisé et régulé MiCA.">
+    <meta name="keywords" content="IBAN blockchain, compte bancaire décentralisé, wallet non-custodial, euro numérique, DeFi Europe, Gnosis Chain, Monerium, EURe, auto-détention, finance souveraine, portefeuille crypto, virements SEPA blockchain">
+    <meta name="author" content="Herrika">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.herrika.org/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.herrika.org/">
+    <meta property="og:title" content="Herrika - Ton compte bancaire souverain sur blockchain">
+    <meta property="og:description" content="IBAN européen sur blockchain. Zéro frais, zéro blocage, zéro intermédiaire. Ouvre ton compte en 3 minutes.">
+    <meta property="og:image" content="https://www.herrika.org/logo.svg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="eu_ES">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.herrika.org/">
+    <meta property="twitter:title" content="Herrika - Compte bancaire souverain sur blockchain">
+    <meta property="twitter:description" content="IBAN européen sur blockchain. Zéro frais, zéro blocage, zéro intermédiaire.">
+    <meta property="twitter:image" content="https://www.herrika.org/logo.svg">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+    
+    <!-- Fonts with optimized loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-stripe.css">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Herrika",
+      "alternateName": "Herrichain",
+      "url": "https://www.herrika.org",
+      "logo": "https://www.herrika.org/logo.svg",
+      "description": "Compte bancaire souverain et décentralisé avec IBAN européen sur blockchain. Zéro frais, zéro blocage, zéro intermédiaire.",
+      "foundingDate": "2024",
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bidart",
+          "postalCode": "64210",
+          "addressCountry": "FR"
+        }
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "availableLanguage": ["French", "English", "Basque", "Spanish"]
+      },
+      "sameAs": [
+        "https://twitter.com/herrika",
+        "https://t.me/herrika"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Herrika Wallet",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web, iOS, Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Portefeuille numérique souverain avec IBAN européen sur blockchain Gnosis Chain. Auto-détention, virements SEPA gratuits, régulé MiCA.",
+      "featureList": [
+        "IBAN européen intégré",
+        "Euro numérique stable (EURE)",
+        "Liberté financière totale",
+        "Non-custodial et insaisissable",
+        "Virements SEPA gratuits",
+        "Transactions 24/7"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "150"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce que Herrika ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Herrika est un portefeuille numérique souverain, porté par l'association loi 1901 Herrichain, basée à Bidart (64210). C'est un portefeuille non-custodial, gratuit, légal, insaisissable, avec IBAN sur la blockchain, basé sur la technologie d'Ibex Wallet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce légal ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. La technologie est fournie par Ibex Wallet, opérée par l'association Civicpower, enregistrée PSAN auprès de l'AMF. Herrichain ne développe pas la technologie et décline toute responsabilité réglementaire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les frais ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Herrika est entièrement gratuit. Les virements SEPA sont gratuits. Seuls les frais de transaction sur Gnosis Chain s'appliquent, conformément aux règles de la finance décentralisée."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle blockchain est utilisée ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Herrika fonctionne sur la Gnosis Chain : rapide, peu coûteuse, compatible avec les stablecoins régulés comme l'euro numérique (EURe)."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Bandeau de développement -->
+    <div class="dev-banner">
+        <div class="dev-banner-content">
+            <span class="dev-banner-icon">🚧</span>
+            <span class="dev-banner-text" data-translate="dev.banner">
+                En cours de développement final • Bientôt disponible
+            </span>
+        </div>
+    </div>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#" aria-label="Retour à l'accueil Herrika">
+                    <span class="logo-text">Herrika</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu" role="menubar">
+                <a href="#fonctionnalites" class="nav-link" data-translate="nav.features" role="menuitem">Fonctionnalités</a>
+                <a href="#fonctionnement" class="nav-link" data-translate="nav.howItWorks" role="menuitem">Comment ça marche</a>
+                <a href="#eure" class="nav-link" data-translate="nav.eure" role="menuitem">EURE</a>
+                <a href="#faq" class="nav-link" data-translate="nav.faq" role="menuitem">FAQ</a>
+                <a href="#identite" class="nav-link" data-translate="nav.identity" role="menuitem">Identité basque</a>
+                <a href="#apropos" class="nav-link" data-translate="nav.about" role="menuitem">À propos</a>
+                <div class="language-selector" role="group" aria-label="Sélection de la langue">
+                    <button class="lang-btn active" data-lang="fr" aria-label="Français" aria-pressed="true">FR</button>
+                    <button class="lang-btn" data-lang="en" aria-label="English" aria-pressed="false">EN</button>
+                    <button class="lang-btn" data-lang="eu" aria-label="Euskara" aria-pressed="false">EU</button>
+                    <button class="lang-btn" data-lang="es" aria-label="Español" aria-pressed="false">ES</button>
+                </div>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-main">Herrika</span>
+                        <span class="title-subtitle" data-translate="hero.subtitle">La banque du futur, en mode Pays Basque. Ton IBAN européen sur blockchain.</span>
+                    </h1>
+                    <p class="hero-description" data-translate="hero.description">
+                        Compte bancaire nouvelle génération : IBAN instantané, paiements 24/7, 
+                        gratuit. La finance décentralisée enfin accessible à tous.
+                    </p>
+                    <div class="hero-cta">
+                        <button class="cta-primary">
+                            <span data-translate="hero.cta">Ouvrir mon compte</span>
+                            <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                        <button class="cta-secondary">
+                            <span data-translate="hero.demo">Découvrir la démo</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="hk-wallet">
+                                <!-- Status bar -->
+                                <div class="hk-statusbar">
+                                    <span class="hk-time">9:41</span>
+                                    <div class="hk-status-icons">
+                                        <span class="hk-signal"></span>
+                                        <span class="hk-wifi"></span>
+                                        <span class="hk-battery"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Header -->
+                                <div class="hk-header">
+                                    <div class="hk-brand">
+                                        <div class="hk-brand-mark" aria-hidden="true">
+                                            <svg viewBox="0 0 32 32" fill="none">
+                                                <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="1.5" opacity=".3"/>
+                                                <path d="M11 9v14M21 9v14M11 16h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                                            </svg>
+                                        </div>
+                                        <span class="hk-brand-name">Herrika Wallet</span>
+                                    </div>
+                                    <div class="hk-header-links">
+                                        <a href="#faq" data-translate="wallet.faq">FAQ</a>
+                                        <a href="#fonctionnement" data-translate="wallet.tutorials">Tutoriels</a>
+                                    </div>
+                                </div>
+
+                                <!-- Balance row -->
+                                <div class="hk-balance-row">
+                                    <div class="hk-balance">
+                                        <span class="hk-balance-amount" data-amount="20.00">20,00 €</span>
+                                    </div>
+                                    <div class="hk-iban-pill" aria-label="IBAN accepté">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                                            <path d="M3 10h18M5 10V8l7-4 7 4v2M4 10v8m4-8v8m4-8v8m4-8v8m4-8v8M3 20h18"/>
+                                        </svg>
+                                        <div class="hk-iban-text">
+                                            <span class="hk-iban-label" data-translate="wallet.iban">IBAN:</span>
+                                            <strong data-translate="wallet.accepted">ACCEPTÉ</strong>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Empty state -->
+                                <div class="hk-empty">
+                                    <div class="hk-empty-icon" aria-hidden="true">
+                                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M14 22h32a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4V22z"/>
+                                            <path d="M14 22V18a3 3 0 0 1 3-3h27"/>
+                                            <circle cx="42" cy="35" r="2.5" fill="currentColor"/>
+                                        </svg>
+                                        <span class="hk-empty-pulse"></span>
+                                    </div>
+                                    <p class="hk-empty-text" data-translate="wallet.noTransactions">Pas encore de transaction</p>
+                                </div>
+
+                                <!-- Receive CTA -->
+                                <button class="hk-cta-receive" type="button">
+                                    <span class="hk-cta-shimmer"></span>
+                                    <span data-translate="wallet.receiveFunds">Recevoir des fonds</span>
+                                </button>
+
+                                <!-- Bottom nav -->
+                                <div class="hk-bottom-nav">
+                                    <button class="hk-nav-btn" type="button">
+                                        <span class="hk-nav-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 19V5M5 12l7-7 7 7"/>
+                                            </svg>
+                                        </span>
+                                        <span class="hk-nav-label" data-translate="wallet.send">ENVOYER</span>
+                                    </button>
+                                    <button class="hk-nav-btn" type="button">
+                                        <span class="hk-nav-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 5v14M5 12l7 7 7-7"/>
+                                            </svg>
+                                        </span>
+                                        <span class="hk-nav-label" data-translate="wallet.receive">RECEVOIR</span>
+                                    </button>
+                                    <button class="hk-nav-btn" type="button">
+                                        <span class="hk-nav-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M3 12a9 9 0 0 1 15.5-6.3L21 8"/>
+                                                <path d="M21 3v5h-5"/>
+                                                <path d="M21 12a9 9 0 0 1-15.5 6.3L3 16"/>
+                                                <path d="M3 21v-5h5"/>
+                                            </svg>
+                                        </span>
+                                        <span class="hk-nav-label" data-translate="wallet.transactions">TRANSACTIONS</span>
+                                    </button>
+                                    <button class="hk-nav-btn" type="button">
+                                        <span class="hk-nav-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                <circle cx="12" cy="8" r="4"/>
+                                                <path d="M4 21a8 8 0 0 1 16 0"/>
+                                            </svg>
+                                        </span>
+                                        <span class="hk-nav-label" data-translate="wallet.profile">PROFIL</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fonctionnalités -->
+    <section class="features" id="fonctionnalites">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="features.title">Révolutionne ta finance</h2>
+                <p class="section-subtitle" data-translate="features.subtitle">
+                    Herrika combine la sécurité de la blockchain avec la simplicité des paiements traditionnels
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="modern-feature-icon">
+                            <rect x="2" y="3" width="20" height="14" rx="3" ry="3"/>
+                            <path d="M2 7h20"/>
+                            <path d="M7 11h10"/>
+                            <path d="M7 14h6"/>
+                            <circle cx="18" cy="12" r="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title" data-translate="features.items.0.title">IBAN européen intégré</h3>
+                    <p class="feature-description" data-translate="features.items.0.description">
+                        Ton IBAN personnel européen directement dans ton portefeuille. 
+                        Reçois des virements depuis toute l'Europe instantanément.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="modern-feature-icon">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 12h8"/>
+                            <path d="M8 8h6"/>
+                            <path d="M8 16h6"/>
+                            <path d="M12 2v4"/>
+                            <path d="M12 18v4"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title" data-translate="features.items.1.title">Euro numérique stable</h3>
+                    <p class="feature-description" data-translate="features.items.1.description">
+                        Paiements instantanés en euro numérique avec stabilité parfaite. 
+                        Toujours 1€ = 1€, partout en Europe.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="modern-feature-icon">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                            <path d="M12 7v6"/>
+                            <path d="M9 10h6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title" data-translate="features.items.2.title">Liberté financière</h3>
+                    <p class="feature-description" data-translate="features.items.2.description">
+                        Tu contrôles entièrement ton argent, où que tu sois en Europe. 
+                        Aucune banque ne peut bloquer tes fonds.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title" data-translate="features.items.3.title">Technologie européenne</h3>
+                    <p class="feature-description" data-translate="features.items.3.description">
+                        Infrastructure sécurisée et rapide pour l'Europe. 
+                        Frais réduits, transactions instantanées, disponible 24h/24.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comment ça marche -->
+    <section class="how-it-works" id="fonctionnement">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="howItWorks.title">Comment ça marche</h2>
+                <p class="section-subtitle" data-translate="howItWorks.subtitle">
+                    Trois étapes simples pour accéder à ta souveraineté financière
+                </p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-translate="howItWorks.steps.0.title">Crée ton portefeuille</h3>
+                        <p class="step-description" data-translate="howItWorks.steps.0.description">
+                            Génère ton portefeuille numérique sécurisé en quelques clics. 
+                            Tes clés privées restent sous ton contrôle exclusif.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="step-image">
+                            <div class="step-illustration step-1">
+                                <div class="wallet-creation">
+                                    <div class="wallet-icon">
+                                        <div class="wallet-body"></div>
+                                        <div class="wallet-flap"></div>
+                                        <div class="security-shield">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="defi-security-icon">
+                                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                                <circle cx="12" cy="10" r="3"/>
+                                                <path d="M12 1v6"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="creation-particles">
+                                        <div class="particle"></div>
+                                        <div class="particle"></div>
+                                        <div class="particle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-translate="howItWorks.steps.1.title">Obtiens ton IBAN</h3>
+                        <p class="step-description" data-translate="howItWorks.steps.1.description">
+                            Reçois automatiquement ton IBAN personnel connecté à ton portefeuille. 
+                            Compatible avec tous les virements SEPA.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="step-image">
+                            <div class="step-illustration step-2">
+                                <div class="iban-generation">
+                                    <div class="bank-card">
+                                        <div class="card-chip"></div>
+                                        <div class="card-number">FR76 **** **** ****</div>
+                                        <div class="card-logo">IBAN</div>
+                                    </div>
+                                    <div class="connection-line"></div>
+                                    <div class="blockchain-node">
+                                        <div class="node-core"></div>
+                                        <div class="node-ring"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-translate="howItWorks.steps.2.title">Paye partout en zone euro</h3>
+                        <p class="step-description" data-translate="howItWorks.steps.2.description">
+                            Effectue des paiements instantanés en euro numérique 
+                            partout en Europe, 24h/24 et 7j/7.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="step-image">
+                            <div class="step-illustration step-3">
+                                <div class="payment-flow">
+                                    <div class="euro-coin">
+                                        <div class="coin-face">€</div>
+                                        <div class="coin-edge"></div>
+                                    </div>
+                                    <div class="transfer-arrow">
+                                        <div class="arrow-body"></div>
+                                        <div class="arrow-head"></div>
+                                    </div>
+                                    <div class="global-network">
+                                        <div class="globe">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="defi-globe-icon">
+                                                <circle cx="12" cy="12" r="10"/>
+                                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                                <path d="M8 12h8"/>
+                                            </svg>
+                                        </div>
+                                        <div class="network-dots">
+                                            <div class="dot"></div>
+                                            <div class="dot"></div>
+                                            <div class="dot"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="how-it-works-cta">
+                <button class="cta-primary cta-large">
+                    <span data-translate="howItWorks.cta">Je révolutionne ma finance européenne maintenant</span>
+                    <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 12h14"/>
+                        <path d="M12 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Identité Basque -->
+    <section class="basque-identity" id="identite">
+        <div class="container">
+            <div class="identity-content">
+                <div class="identity-text">
+                    <h2 class="section-title" data-translate="identity.title">Enraciné dans l'identité basque</h2>
+                    <p class="identity-description" data-translate="identity.description" data-component-name="<p />">Herrika puise ses valeurs dans l'héritage basque de souveraineté et d'indépendance. Comme nos ancêtres qui ont préservé leur autonomie à travers les siècles, nous mettons en avant les outils de ta souveraineté financière.</p>
+                    <div class="identity-anecdote">
+                        <div class="anecdote-icon">💡</div>
+                        <p class="anecdote-text" data-translate="identity.anecdote">
+                            <strong>Le saviez-vous ?</strong> Herrika est la contraction d'<em>"Herriko Katea"</em>, 
+                            qui signifie "la chaîne du peuple" en euskera. Un nom qui reflète parfaitement 
+                            notre vision d'une blockchain au service de la souveraineté populaire.
+                        </p>
+                    </div>
+                    <div class="identity-values">
+                        <div class="value-item">
+                            <div class="value-icon">🏔️</div>
+                            <div class="value-text">
+                                <h4 data-translate="identity.values.0.title">Autonomie</h4>
+                                <p data-translate="identity.values.0.description">Contrôle total de tes finances</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🤝</div>
+                            <div class="value-text">
+                                <h4 data-translate="identity.values.1.title">Solidarité</h4>
+                                <p data-translate="identity.values.1.description">Communauté et entraide</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🔒</div>
+                            <div class="value-text">
+                                <h4 data-translate="identity.values.2.title">Sécurité</h4>
+                                <p data-translate="identity.values.2.description">Protection de tes données</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="identity-visual">
+                    <div class="basque-pattern">
+                        <div class="lauburu">
+                            <svg viewBox="0 0 123 123" class="lauburu-svg">
+                                <path class="lauburu-path" d="
+                                    M 61.5 61.5
+                                    a 30.5 30.5	0 0 1 11-60
+                                    a 15.25 15.25	0 0 1-5.5 30
+                                    a 15.25 15.25	0 0 0-5.5 30
+                                    a 30.5 30.5	0 0 1 60 11
+                                    a 15.25 15.25	0 0 1-30-5.5
+                                    a 15.25 15.25	0 0 0-30-5.5
+                                    a 30.5 30.5	0 0 1-11 60
+                                    a 15.25 15.25	0 0 1 5.5-30
+                                    a 15.25 15.25	0 0 0 5.5-30
+                                    a 30.5 30.5	0 0 1-60-11
+                                    a 15.25 15.25	0 0 1 30 5.5
+                                    a 15.25 15.25	0 0 0 30 5.5
+                                "/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Légale -->
+    <section class="legal-section" id="legal">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="legal.title">Légalité, souveraineté et technologie</h2>
+            </div>
+            <div class="legal-content">
+                <p class="legal-text" data-translate="legal.content">
+                    Herrika est un portefeuille souverain, gratuit, 100% légal, et insaisissable. Aucun tiers – ni banque, ni gouvernement – ne peut bloquer vos fonds. Herrika n'est pas le fournisseur technologique : la technologie est assurée par Ibex Wallet, en partenariat avec Monerium sur Gnosis Chain.
+                </p>
+                <div class="legal-partners">
+                    <div class="partner-item">
+                        <div class="partner-logo">
+                            <img src="ibex-logo.svg" alt="Ibex Wallet" class="partner-logo-img">
+                        </div>
+                        <div class="partner-name">Ibex Wallet</div>
+                        <div class="partner-role">Technologie</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-logo">
+                            <img src="monerium-logo.png" alt="Monerium" class="partner-logo-img">
+                        </div>
+                        <div class="partner-name">Monerium</div>
+                        <div class="partner-role">IBAN & Stablecoins</div>
+                    </div>
+                    <div class="partner-item">
+                        <div class="partner-logo">
+                            <img src="gnosis-logo.webp" alt="Gnosis Chain" class="partner-logo-img">
+                        </div>
+                        <div class="partner-name">Gnosis Chain</div>
+                        <div class="partner-role">Blockchain</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section EURE Monerium -->
+    <section class="eure-section" id="eure">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="eure.title">EURE : L'euro numérique réglementé</h2>
+                <p class="section-subtitle" data-translate="eure.subtitle">
+                    Contrairement aux stablecoins classiques, EURE est un véritable euro numérique autorisé et réglementé
+                </p>
+            </div>
+            <div class="eure-content">
+                <div class="eure-main">
+                    <div class="eure-text">
+                        <div class="eure-badge">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="badge-icon defi-institution-icon">
+                                <path d="M3 21h18"/>
+                                <path d="M6 21V9a9 9 0 0 1 18 0v12"/>
+                                <path d="M12 3v6"/>
+                                <circle cx="12" cy="12" r="2"/>
+                            </svg>
+                            <span class="badge-text" data-translate="eure.badge">Institution financière européenne agréée</span>
+                        </div>
+                        <h3 class="eure-heading" data-translate="eure.heading">Monerium EMI : Votre garantie réglementaire</h3>
+                        <p class="eure-description" data-translate="eure.description">
+                            Monerium EMI est une institution monétaire électronique, un établissement financier européen 
+                            autorisé à opérer dans l'EEE. Nous nous occupons du fardeau réglementaire, 
+                            pour que vous puissiez vous concentrer sur la création du meilleur produit possible.
+                        </p>
+                        <div class="eure-features">
+                            <div class="eure-feature">
+                                <div class="feature-icon-small">⚖️</div>
+                                <div class="feature-content">
+                                    <h4 data-translate="eure.features.0.title">Régime réglementaire connu</h4>
+                                    <p data-translate="eure.features.0.description">Pour favoriser l'adoption grand public des blockchains, vous avez besoin d'argent qui vit sous un régime réglementaire connu.</p>
+                                </div>
+                            </div>
+                            <div class="eure-feature">
+                                <div class="feature-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="defi-digital-euro-icon">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <path d="M8 12h8"/>
+                                        <path d="M8 8h6"/>
+                                        <path d="M8 16h6"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-content">
+                                    <h4 data-translate="eure.features.1.title">Véritable monnaie numérique</h4>
+                                    <p data-translate="eure.features.1.description">Les euros sont émis sur la blockchain sous forme de jetons de monnaie électronique euro. Contrairement aux "stablecoins", les jetons EURE sont une forme autorisée d'argent numérique.</p>
+                                </div>
+                            </div>
+                            <div class="eure-feature">
+                                <div class="feature-icon-small">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="defi-bank-secure-icon">
+                                        <path d="M3 21h18"/>
+                                        <path d="M6 21V9a9 9 0 0 1 18 0v12"/>
+                                        <circle cx="12" cy="11" r="2"/>
+                                        <path d="M12 13v4"/>
+                                    </svg>
+                                </div>
+                                <div class="feature-content">
+                                    <h4 data-translate="eure.features.2.title">Rachat inconditionnel</h4>
+                                    <p data-translate="eure.features.2.description">Les détenteurs peuvent racheter inconditionnellement directement sur leurs comptes bancaires via l'IBAN Monerium.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eure-cta">
+                            <a href="https://monerium.com/" target="_blank" rel="noopener" class="btn-eure primary">
+                                <span data-translate="eure.cta.primary">Découvrir Monerium</span>
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                                </svg>
+                            </a>
+                            <a href="#fonctionnement" class="btn-eure secondary">
+                                <span data-translate="eure.cta.secondary">Comment ça marche</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="eure-visual">
+                        <div class="eure-card">
+                            <div class="card-header">
+                                <div class="monerium-logo">
+                                    <div class="logo-circle"></div>
+                                    <span>Monerium</span>
+                                </div>
+                                <div class="regulation-badge" data-translate="eure.visual.badge">Réglementé EEE</div>
+                            </div>
+                            <div class="card-content">
+                                <div class="euro-amount">1,000.00 €</div>
+                                <div class="euro-type" data-translate="eure.visual.type">Euro numérique (EURE)</div>
+                                <div class="conversion-flow">
+                                    <div class="flow-step">
+                                        <div class="step-icon">🏦</div>
+                                        <div class="status-text" data-translate="eure.visual.status">Garantie 1:1 avec l'euro</div>
+                                    </div>
+                                    <div class="flow-arrow">→</div>
+                                    <div class="flow-step">
+                                        <div class="step-icon">⛓️</div>
+                                        <div class="step-text" data-translate="eure.visual.step2">Blockchain</div>
+                                    </div>
+                                    <div class="flow-arrow">→</div>
+                                    <div class="flow-step">
+                                        <div class="step-icon">💳</div>
+                                        <div class="step-text" data-translate="eure.visual.step3">Herrika</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vidéo de présentation -->
+    <section class="video-presentation" id="video">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="video.title">Découvrez Herrika en action</h2>
+                <p class="section-subtitle" data-translate="video.subtitle">
+                    Une présentation complète du projet et de sa vision
+                </p>
+            </div>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/zwRylAVHEG4?autoplay=1&mute=1&loop=1&playlist=zwRylAVHEG4&controls=1&modestbranding=1&rel=0"
+                        title="Présentation Herrika"
+                        style="border: none;"
+                        sandbox="allow-scripts allow-same-origin allow-presentation"
+                        allow="autoplay; encrypted-media; picture-in-picture"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Démo -->
+    <section class="demo" id="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="demo.title">Découvre l'interface</h2>
+                <p class="section-subtitle" data-translate="demo.subtitle">
+                    Une expérience utilisateur pensée pour la simplicité et la sécurité
+                </p>
+            </div>
+            <div class="demo-container">
+                <div class="demo-screen">
+                    <div class="demo-header">
+                        <div class="demo-dots">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="demo-title">Herrika</div>
+                    </div>
+                    <div class="demo-content herrika-wallet-interface">
+                        <!-- Header avec logo et navigation -->
+                        <div class="herrika-wallet-header">
+                            <div class="herrika-logo-section">
+                                <div class="herrika-logo">🏛️</div>
+                                <span class="herrika-title">Herrika Wallet</span>
+                            </div>
+                            <div class="herrika-nav-links">
+                                <a href="#faq" class="nav-link">FAQ</a>
+                                <a href="#" class="nav-link">Tutoriels</a>
+                            </div>
+                        </div>
+
+                        <!-- Solde principal -->
+                        <div class="herrika-balance-section">
+                            <div class="herrika-main-balance">2,847.32 €</div>
+                            <div class="herrika-balance-actions">
+                                <button class="herrika-action-btn protect">
+                                    <div class="btn-icon">🛡️</div>
+                                    <span>PROTÉGER<br>MON COMPTE</span>
+                                </button>
+                                <button class="herrika-action-btn iban">
+                                    <div class="btn-icon">🏛️</div>
+                                    <span>IBAN:<br>FR76 1234 5678</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Historique des transactions (version réduite) -->
+                        <div class="herrika-transactions-section">
+                            <h3 class="transactions-title">Dernières transactions</h3>
+                            
+                            <div class="transaction-item">
+                                <div class="transaction-icon">⬇️</div>
+                                <div class="transaction-details">
+                                    <div class="transaction-type">Réception euros</div>
+                                    <div class="transaction-amount positive">+127,45 €</div>
+                                </div>
+                                <div class="transaction-meta">
+                                    <div class="transaction-date">Aujourd'hui</div>
+                                    <div class="transaction-status confirmed">Confirmé</div>
+                                </div>
+                            </div>
+
+                            <div class="transaction-item">
+                                <div class="transaction-icon">⬆️</div>
+                                <div class="transaction-details">
+                                    <div class="transaction-type">Envoi euros</div>
+                                    <div class="transaction-amount negative">-50,00 €</div>
+                                </div>
+                                <div class="transaction-meta">
+                                    <div class="transaction-date">Hier</div>
+                                    <div class="transaction-status confirmed">Confirmé</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation principale -->
+                        <div class="herrika-main-nav">
+                            <button class="nav-btn">
+                                <div class="nav-icon">⬆️</div>
+                                <span>ENVOYER</span>
+                            </button>
+                            <button class="nav-btn">
+                                <div class="nav-icon">⬇️</div>
+                                <span>RECEVOIR</span>
+                            </button>
+                            <button class="nav-btn">
+                                <div class="nav-icon">🔄</div>
+                                <span>ÉCHANGER</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo-cta">
+                    <button class="cta-primary">
+                        <span data-translate="demo.cta">Créer mon portefeuille numérique gratuit</span>
+                        <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="faq.title">Questions fréquentes</h2>
+                <p class="section-subtitle" data-translate="faq.subtitle">
+                    Tout ce que vous devez savoir sur Herrika
+                </p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-faq="0">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.0.question">Qu'est‑ce que Herrika ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.0.answer">
+                            Herrika est un portefeuille numérique souverain, porté par l'association Herrichain, basée à Bidart (Pays Basque français). C'est un portefeuille non-custodial, gratuit, légal, insaisissable, avec IBAN sur la blockchain, basé sur la technologie d'Ibex Wallet.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="1">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.1.question">Comment fonctionne Herrika ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.1.answer">
+                            Création du portefeuille gratuite. IBAN personnel via Monerium. Clé privée 100% sous votre contrôle. Envoi/réception d'euros tokenisés (EURe) sur la Gnosis Chain. Compatible avec virements SEPA.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="2">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.2.question">Qu'est-ce que "non-custodial" et "insaisissable" signifie ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.2.answer">
+                            Non-custodial signifie que personne (ni banque, ni Herrichain) ne détient vos fonds ou votre clé. Insaisissable signifie que vos fonds ne peuvent pas être bloqués par un tiers sans décision judiciaire.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="3">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.3.question">Est-ce légal ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.3.answer">
+                            Oui. La technologie est fournie par Ibex Wallet, opérée par l'association Civicpower, enregistrée PSAN auprès de l'AMF. Herrichain ne développe pas la technologie et décline toute responsabilité réglementaire.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="4">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.4.question">Quels sont les frais ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.4.answer">
+                            Portefeuille gratuit. Frais de transaction faibles (Gnosis Chain). Frais éventuels pour les virements via Monerium.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="5">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.5.question">Que se passe-t-il si je perds mon téléphone ou ma clé privée ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.5.answer">
+                            Grâce à la norme FIDO, vous pouvez restaurer l'accès via votre compte cloud (Google, Apple, Microsoft). Si vous perdez aussi vos identifiants cloud, vos fonds sont irrécupérables.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="6">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.6.question">Où est stockée ma clé privée ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.6.answer">
+                            Dans le coffre-fort chiffré de votre OS (iCloud, Google, Microsoft). Norme FIDO : votre clé privée n'est jamais visible, ni exportable, ni par vous, ni par Ibex, ni par Herrichain.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="7">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.7.question">Et si je veux une solution sans cloud GAFAM ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.7.answer">
+                            Une version avancée et auto-hébergée sera proposée aux utilisateurs experts. Elle sera payante car elle nécessite plus d'autonomie et de configuration.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="8">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.8.question">Qui développe la technologie Herrika ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.8.answer">
+                            Herrichain porte le projet. La technologie est fournie par Ibex Wallet, opérée par Civicpower, association française enregistrée.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="9">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.9.question">Quelle blockchain est utilisée ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.9.answer">
+                            Herrika fonctionne sur la Gnosis Chain : rapide, peu coûteuse, compatible avec les stablecoins régulés comme l'euro numérique (EURe).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="10">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.10.question">Comment Herrika est financé ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.10.answer">
+                            Herrichain est une association à but non lucratif, financée par des dons, subventions, partenariats éthiques.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-faq="11">
+                    <button class="faq-question" aria-expanded="false">
+                        <span data-translate="faq.items.11.question">Qui contacter en cas de problème ?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-translate="faq.items.11.answer">
+                            Via notre site officiel, nos réseaux sociaux ou Telegram. Une section support sera intégrée prochainement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="about" id="apropos">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-translate="about.title">À propos d'Herrichain</h2>
+                    <p class="about-description" data-translate="about.description">Herrika est porté par l'association Herrichain et ses fondateurs passionnés de finance décentralisée, profondément attachés à la culture du Pays Basque et à ses valeurs universelles de liberté et d'indépendance. Ce projet non lucratif vise à démocratiser l'accès aux outils financiers souverains, que vous soyez du Pays Basque ou d'ailleurs en Europe.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">+400</div>
+                            <div class="stat-label" data-translate="about.stats.waitlist">Liste d'attente</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label" data-translate="about.stats.opensource">Open Source</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">0€</div>
+                            <div class="stat-label" data-translate="about.stats.fees">Frais cachés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label" data-translate="about.stats.availability">Disponibilité</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-team">
+                    <h3 data-translate="about.association.title">Association Herrichain</h3>
+                    <p data-translate="about.association.description">Association loi 1901 à but non lucratif, Herrichain agit concrètement pour démocratiser la finance décentralisée : éducation, développement d'outils open-source, et accompagnement vers l'autonomie financière. Votre adhésion finance ces actions pour rendre la DeFi accessible à tous les Européens.</p>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 16px;">
+                        <strong>RNA :</strong> W641015204
+                    </p>
+                    <a href="https://herrichain.org/adhesion" target="_blank" class="team-cta" data-translate="about.association.cta">Adhérer à l'association</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="logo.svg" alt="Herrika" class="logo">
+                        <span class="logo-text">Herrika</span>
+                    </div>
+                    <p class="footer-tagline" data-translate="footer.tagline">La clé de ta souveraineté financière</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-translate="footer.product">Produit</h4>
+                        <a href="#fonctionnalites">Fonctionnalités</a>
+                        <a href="#fonctionnement">Comment ça marche</a>
+                        <a href="#demo">Démo</a>
+                        <a href="#">Sécurité</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-translate="footer.community">Communauté</h4>
+                        <a href="#">Discord</a>
+                        <a href="#">Telegram</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Newsletter</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-translate="footer.developers">Développeurs</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">API</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Contribuer</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 data-translate="footer.legal">Légal</h4>
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="conditions-generales.html">CGU Site Web</a>
+                        <a href="app-terms.html">CGU Application</a>
+                        <a href="https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:202500441587" target="_blank" rel="noopener" data-translate="footer.legalLinks.jo">Journal Officiel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-copyright">
+                    <p data-translate="footer.copyright">2026 Herrika. Tous droits réservés.</p>
+                    <p class="association-link"><span data-translate="footer.association">Porté par l'Association Herrichain</span> - <a href="https://herrichain.org" target="_blank" rel="noopener noreferrer">herrichain.org</a></p>
+                    <p class="made-by"><span data-translate="footer.madeby">Site réalisé par</span> <a href="https://www.arteandigital.fr" target="_blank" rel="noopener noreferrer">www.arteandigital.fr</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js?v=2026"></script>
+    <script src="script.js?v=2026"></script>
+    <script src="scroll-animations.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# robots.txt pour Herrika
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.herrika.org/sitemap.xml
+
+# Disallow admin or private pages (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay (optional, for politeness)
+Crawl-delay: 1
