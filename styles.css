@@ -1402,6 +1402,10 @@ body {
   margin-bottom: 16px;
 }
 
+.footer-logo .logo-text {
+  color: #ffffff !important;
+}
+
 .footer-tagline {
   color: var(--text-secondary);
   line-height: 1.6;
