@@ -268,10 +268,10 @@ const translations = {
       "en": "Herrika defends the values of sovereignty and financial independence. We believe that everyone should have complete control over their finances, without depending on centralized intermediaries."
     },
     "anecdote": {
-      "fr": "<strong>Notre mission :</strong> Démocratiser l'accès aux outils financiers décentralisés et rendre la blockchain accessible à tous, partout en Europe.",
-      "eu": "<strong>Gure misioa:</strong> Finantza tresna deszentralizatuen sarbidea demokratizatu eta blockchain guztientzat eskuragarri jarri, Europan edonon.",
-      "es": "<strong>Nuestra misión:</strong> Democratizar el acceso a las herramientas financieras descentralizadas y hacer la blockchain accesible para todos, en toda Europa.",
-      "en": "<strong>Our mission:</strong> Democratize access to decentralized financial tools and make blockchain accessible to everyone, everywhere in Europe."
+      "fr": "<strong>Notre mission :</strong> Démocratiser l'accès aux outils financiers décentralisés et rendre la blockchain accessible à tous, partout en Europe. Visitez <a href=\"https://www.herrichain.org\" target=\"_blank\">www.herrichain.org</a>.",
+      "eu": "<strong>Gure misioa:</strong> Finantza tresna deszentralizatuen sarbidea demokratizatu eta blockchain guztientzat eskuragarri jarri, Europan edonon. Bisitatu <a href=\"https://www.herrichain.org\" target=\"_blank\">www.herrichain.org</a>.",
+      "es": "<strong>Nuestra misión:</strong> Democratizar el acceso a las herramientas financieras descentralizadas y hacer la blockchain accesible para todos, en toda Europa. Visita <a href=\"https://www.herrichain.org\" target=\"_blank\">www.herrichain.org</a>.",
+      "en": "<strong>Our mission:</strong> Democratize access to decentralized financial tools and make blockchain accessible to everyone, everywhere in Europe. Visit <a href=\"https://www.herrichain.org\" target=\"_blank\">www.herrichain.org</a>."
     },
     "values": [
       {

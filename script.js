@@ -66,13 +66,12 @@ function translateElement(element, key, language) {
     }
     
     if (translation && translation[language]) {
-        // Toujours utiliser textContent pour éviter les XSS
-        // Le formatage HTML doit être géré dans la structure HTML existante
-        element.textContent = translation[language];
+        // Utilisation de innerHTML pour permettre le formatage HTML (ex: <strong>)
+        element.innerHTML = translation[language];
     } else if (translation && translation['fr']) {
         // Fallback vers le français si la traduction n'existe pas
         console.warn(`Translation not found for ${key} in ${language}, using French fallback`);
-        element.textContent = translation['fr'];
+        element.innerHTML = translation['fr'];
     }
 }
     
