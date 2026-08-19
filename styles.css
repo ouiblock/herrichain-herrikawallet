@@ -1646,6 +1646,9 @@ body {
     font-size: 2.8rem;
     line-height: 1.1;
     word-break: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
   }
 
   .title-subtitle {
@@ -1678,12 +1681,18 @@ body {
     line-height: 1.2;
     text-align: center;
     word-break: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
   }
 
   .section-subtitle {
     font-size: 1rem;
     line-height: 1.5;
     text-align: center;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
   }
 
   .feature-card {
@@ -1700,6 +1709,9 @@ body {
   .feature-description {
     font-size: 0.9rem;
     line-height: 1.5;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
   }
 
   /* Navigation mobile */
@@ -2065,6 +2077,8 @@ body {
   .section-title {
     font-size: 1.8rem;
     line-height: 1.2;
+    hyphens: auto;
+    -webkit-hyphens: auto;
   }
 
   .section-subtitle {
