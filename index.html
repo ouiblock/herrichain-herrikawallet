@@ -259,7 +259,7 @@
                                 <!-- Balance row -->
                                 <div class="hk-balance-row">
                                     <div class="hk-balance">
-                                        <span class="hk-balance-amount" data-amount="20.00">20,00 €</span>
+                                        <span class="hk-balance-amount" data-amount="1495.00">1 495,00 €</span>
                                     </div>
                                     <div class="hk-iban-pill" aria-label="IBAN accepté">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
@@ -272,17 +272,60 @@
                                     </div>
                                 </div>
 
-                                <!-- Empty state -->
-                                <div class="hk-empty">
-                                    <div class="hk-empty-icon" aria-hidden="true">
-                                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                            <path d="M14 22h32a4 4 0 0 1 4 4v18a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4V22z"/>
-                                            <path d="M14 22V18a3 3 0 0 1 3-3h27"/>
-                                            <circle cx="42" cy="35" r="2.5" fill="currentColor"/>
-                                        </svg>
-                                        <span class="hk-empty-pulse"></span>
+                                <!-- Transactions list -->
+                                <div class="hk-transactions">
+                                    <div class="hk-tx-item">
+                                        <div class="hk-tx-left">
+                                            <div class="hk-tx-icon in">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                                            </div>
+                                            <div class="hk-tx-details">
+                                                <span class="hk-tx-title">Dépôt SEPA</span>
+                                                <span class="hk-tx-date">Aujourd'hui, 10:42</span>
+                                                <span class="hk-tx-hash">0x7f...3a9c</span>
+                                            </div>
+                                        </div>
+                                        <div class="hk-tx-amount in">+ 1 200,00 €</div>
                                     </div>
-                                    <p class="hk-empty-text" data-translate="wallet.noTransactions">Pas encore de transaction</p>
+                                    <div class="hk-tx-item">
+                                        <div class="hk-tx-left">
+                                            <div class="hk-tx-icon out">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+                                            </div>
+                                            <div class="hk-tx-details">
+                                                <span class="hk-tx-title">Paiement Commerçant</span>
+                                                <span class="hk-tx-date">Hier, 18:30</span>
+                                                <span class="hk-tx-hash">0x4b...e12f</span>
+                                            </div>
+                                        </div>
+                                        <div class="hk-tx-amount">- 45,50 €</div>
+                                    </div>
+                                    <div class="hk-tx-item">
+                                        <div class="hk-tx-left">
+                                            <div class="hk-tx-icon in">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+                                            </div>
+                                            <div class="hk-tx-details">
+                                                <span class="hk-tx-title">Virement reçu</span>
+                                                <span class="hk-tx-date">16 Août, 14:15</span>
+                                                <span class="hk-tx-hash">0x9d...88b2</span>
+                                            </div>
+                                        </div>
+                                        <div class="hk-tx-amount in">+ 340,50 €</div>
+                                    </div>
+                                    <div class="hk-tx-item">
+                                        <div class="hk-tx-left">
+                                            <div class="hk-tx-icon out">
+                                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+                                            </div>
+                                            <div class="hk-tx-details">
+                                                <span class="hk-tx-title">Abonnement</span>
+                                                <span class="hk-tx-date">15 Août, 09:00</span>
+                                                <span class="hk-tx-hash">0x1a...f47d</span>
+                                            </div>
+                                        </div>
+                                        <div class="hk-tx-amount">- 15,00 €</div>
+                                    </div>
                                 </div>
 
                                 <!-- Receive CTA -->
