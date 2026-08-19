@@ -776,6 +776,7 @@ body, body[data-theme], body[data-theme="dark"], body[data-theme="light"] {
   font-feature-settings: "tnum" !important;
   font-variant-numeric: tabular-nums;
   display: inline-block;
+  white-space: nowrap;
   background: linear-gradient(180deg, #fff 0%, #c8e8dc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
