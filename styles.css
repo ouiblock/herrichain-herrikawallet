@@ -1465,7 +1465,7 @@ body {
 }
 
 .footer-copyright {
-  color: var(--text-secondary);
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
@@ -2879,12 +2879,14 @@ img, svg, video {
 }
 
 .team-cta {
+  display: inline-block;
   padding: 12px 24px;
   background: var(--green-gradient);
   color: var(--basque-white);
   border: none;
   border-radius: var(--border-radius-sm);
   font-weight: 600;
+  text-decoration: none;
   cursor: pointer;
   transition: var(--transition-smooth);
 }
